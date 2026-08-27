@@ -1,0 +1,3611 @@
+[
+  {
+    "sku": "G122496",
+    "nombre": "Anillo Serpiente",
+    "slug": "anillo-serpiente-g122496",
+    "precio": 194,
+    "categoria": "Anillos",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122496.jpg",
+    "thumb": "assets/img/productos/thumb/G122496.jpg"
+  },
+  {
+    "sku": "G122497",
+    "nombre": "Anillo Hojas Cruzadas",
+    "slug": "anillo-hojas-cruzadas-g122497",
+    "precio": 168,
+    "categoria": "Anillos",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122497.jpg",
+    "thumb": "assets/img/productos/thumb/G122497.jpg"
+  },
+  {
+    "sku": "G122488",
+    "nombre": "Aretes Flor con Perla Barroca",
+    "slug": "aretes-flor-con-perla-barroca-g122488",
+    "precio": 233,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122488.jpg",
+    "thumb": "assets/img/productos/thumb/G122488.jpg"
+  },
+  {
+    "sku": "G122489",
+    "nombre": "Aretes Flor con Perlas",
+    "slug": "aretes-flor-con-perlas-g122489",
+    "precio": 285,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122489.jpg",
+    "thumb": "assets/img/productos/thumb/G122489.jpg"
+  },
+  {
+    "sku": "G122490",
+    "nombre": "Aretes Disco Ondulado con Perla",
+    "slug": "aretes-disco-ondulado-con-perla-g122490",
+    "precio": 246,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122490.jpg",
+    "thumb": "assets/img/productos/thumb/G122490.jpg"
+  },
+  {
+    "sku": "GS110294",
+    "nombre": "Aretes Hoja Bicolor",
+    "slug": "aretes-hoja-bicolor-gs110294",
+    "precio": 285,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS110294.jpg",
+    "thumb": "assets/img/productos/thumb/GS110294.jpg"
+  },
+  {
+    "sku": "GS110295",
+    "nombre": "Aretes Rama de Hojas",
+    "slug": "aretes-rama-de-hojas-gs110295",
+    "precio": 285,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS110295.jpg",
+    "thumb": "assets/img/productos/thumb/GS110295.jpg"
+  },
+  {
+    "sku": "GS110296",
+    "nombre": "Aretes Hoja Alargada",
+    "slug": "aretes-hoja-alargada-gs110296",
+    "precio": 324,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS110296.jpg",
+    "thumb": "assets/img/productos/thumb/GS110296.jpg"
+  },
+  {
+    "sku": "GS110297",
+    "nombre": "Aretes Pluma",
+    "slug": "aretes-pluma-gs110297",
+    "precio": 285,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS110297.jpg",
+    "thumb": "assets/img/productos/thumb/GS110297.jpg"
+  },
+  {
+    "sku": "GS110298",
+    "nombre": "Aretes Óvalo Irregular",
+    "slug": "aretes-ovalo-irregular-gs110298",
+    "precio": 285,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS110298.jpg",
+    "thumb": "assets/img/productos/thumb/GS110298.jpg"
+  },
+  {
+    "sku": "GS110299",
+    "nombre": "Aretes Corazón Colgante",
+    "slug": "aretes-corazon-colgante-gs110299",
+    "precio": 259,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS110299.jpg",
+    "thumb": "assets/img/productos/thumb/GS110299.jpg"
+  },
+  {
+    "sku": "GS110300",
+    "nombre": "Aretes Hoja Calada",
+    "slug": "aretes-hoja-calada-gs110300",
+    "precio": 285,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS110300.jpg",
+    "thumb": "assets/img/productos/thumb/GS110300.jpg"
+  },
+  {
+    "sku": "GS110301",
+    "nombre": "Aretes Estrella de Mar con Perla",
+    "slug": "aretes-estrella-de-mar-con-perla-gs110301",
+    "precio": 311,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS110301.jpg",
+    "thumb": "assets/img/productos/thumb/GS110301.jpg"
+  },
+  {
+    "sku": "GS110302",
+    "nombre": "Aretes Flor con Perla",
+    "slug": "aretes-flor-con-perla-gs110302",
+    "precio": 285,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS110302.jpg",
+    "thumb": "assets/img/productos/thumb/GS110302.jpg"
+  },
+  {
+    "sku": "GS110303",
+    "nombre": "Aretes Abanico con Perla",
+    "slug": "aretes-abanico-con-perla-gs110303",
+    "precio": 285,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS110303.jpg",
+    "thumb": "assets/img/productos/thumb/GS110303.jpg"
+  },
+  {
+    "sku": "GS1401942",
+    "nombre": "Aretes Trébol Ónix",
+    "slug": "aretes-trebol-onix-gs1401942",
+    "precio": 194,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1401942.jpg",
+    "thumb": "assets/img/productos/thumb/GS1401942.jpg"
+  },
+  {
+    "sku": "GS1401943",
+    "nombre": "Aretes Trébol Negro",
+    "slug": "aretes-trebol-negro-gs1401943",
+    "precio": 103,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1401943.jpg",
+    "thumb": "assets/img/productos/thumb/GS1401943.jpg"
+  },
+  {
+    "sku": "GS1401944",
+    "nombre": "Aretes Trébol Rojo",
+    "slug": "aretes-trebol-rojo-gs1401944",
+    "precio": 103,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1401944.jpg",
+    "thumb": "assets/img/productos/thumb/GS1401944.jpg"
+  },
+  {
+    "sku": "GS1401945",
+    "nombre": "Aretes Trébol Malaquita",
+    "slug": "aretes-trebol-malaquita-gs1401945",
+    "precio": 103,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1401945.jpg",
+    "thumb": "assets/img/productos/thumb/GS1401945.jpg"
+  },
+  {
+    "sku": "GS1401946",
+    "nombre": "Aretes Trébol Negro Mini",
+    "slug": "aretes-trebol-negro-mini-gs1401946",
+    "precio": 103,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1401946.jpg",
+    "thumb": "assets/img/productos/thumb/GS1401946.jpg"
+  },
+  {
+    "sku": "GS1401947",
+    "nombre": "Aretes Trébol Rojo Mini",
+    "slug": "aretes-trebol-rojo-mini-gs1401947",
+    "precio": 103,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1401947.jpg",
+    "thumb": "assets/img/productos/thumb/GS1401947.jpg"
+  },
+  {
+    "sku": "GS1401948",
+    "nombre": "Aretes Trébol Malaquita Mini",
+    "slug": "aretes-trebol-malaquita-mini-gs1401948",
+    "precio": 129,
+    "categoria": "Aretes",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1401948.jpg",
+    "thumb": "assets/img/productos/thumb/GS1401948.jpg"
+  },
+  {
+    "sku": "G122493",
+    "nombre": "Arracadas Gota Lisa",
+    "slug": "arracadas-gota-lisa-g122493",
+    "precio": 233,
+    "categoria": "Arracadas",
+    "material": "Acero inoxidable",
+    "medidas": [
+      "2 cm"
+    ],
+    "img": "assets/img/productos/G122493.jpg",
+    "thumb": "assets/img/productos/thumb/G122493.jpg"
+  },
+  {
+    "sku": "G122494",
+    "nombre": "Arracadas Triple Aro",
+    "slug": "arracadas-triple-aro-g122494",
+    "precio": 285,
+    "categoria": "Arracadas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122494.jpg",
+    "thumb": "assets/img/productos/thumb/G122494.jpg"
+  },
+  {
+    "sku": "G122495",
+    "nombre": "Arracadas Multi Aro",
+    "slug": "arracadas-multi-aro-g122495",
+    "precio": 246,
+    "categoria": "Arracadas",
+    "material": "Acero inoxidable",
+    "medidas": [
+      "2 cm"
+    ],
+    "img": "assets/img/productos/G122495.jpg",
+    "thumb": "assets/img/productos/thumb/G122495.jpg"
+  },
+  {
+    "sku": "G122606",
+    "nombre": "Gargantilla Llave y Candado",
+    "slug": "gargantilla-llave-y-candado-g122606",
+    "precio": 285,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122606.jpg",
+    "thumb": "assets/img/productos/thumb/G122606.jpg"
+  },
+  {
+    "sku": "G122807",
+    "nombre": "Gargantilla Charms Multicolor",
+    "slug": "gargantilla-charms-multicolor-g122807",
+    "precio": 350,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122807.jpg",
+    "thumb": "assets/img/productos/thumb/G122807.jpg"
+  },
+  {
+    "sku": "G122808",
+    "nombre": "Gargantilla Corazón y Charms",
+    "slug": "gargantilla-corazon-y-charms-g122808",
+    "precio": 363,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122808.jpg",
+    "thumb": "assets/img/productos/thumb/G122808.jpg"
+  },
+  {
+    "sku": "G122810",
+    "nombre": "Gargantilla Estrellas",
+    "slug": "gargantilla-estrellas-g122810",
+    "precio": 363,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122810.jpg",
+    "thumb": "assets/img/productos/thumb/G122810.jpg"
+  },
+  {
+    "sku": "G1228111",
+    "nombre": "Gargantilla Corazones",
+    "slug": "gargantilla-corazones-g1228111",
+    "precio": 363,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G1228111.jpg",
+    "thumb": "assets/img/productos/thumb/G1228111.jpg"
+  },
+  {
+    "sku": "G122812",
+    "nombre": "Gargantilla Ala, Llave y Cruz",
+    "slug": "gargantilla-ala-llave-y-cruz-g122812",
+    "precio": 311,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122812.jpg",
+    "thumb": "assets/img/productos/thumb/G122812.jpg"
+  },
+  {
+    "sku": "G122813",
+    "nombre": "Gargantilla Eslabón Oval",
+    "slug": "gargantilla-eslabon-oval-g122813",
+    "precio": 324,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122813.jpg",
+    "thumb": "assets/img/productos/thumb/G122813.jpg"
+  },
+  {
+    "sku": "G122814",
+    "nombre": "Gargantilla Doble con Balines",
+    "slug": "gargantilla-doble-con-balines-g122814",
+    "precio": 285,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122814.jpg",
+    "thumb": "assets/img/productos/thumb/G122814.jpg"
+  },
+  {
+    "sku": "GS14016738",
+    "nombre": "Gargantilla Trébol Blanco",
+    "slug": "gargantilla-trebol-blanco-gs14016738",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS14016738.jpg",
+    "thumb": "assets/img/productos/thumb/GS14016738.jpg"
+  },
+  {
+    "sku": "GS14016739",
+    "nombre": "Gargantilla Trébol Rojo",
+    "slug": "gargantilla-trebol-rojo-gs14016739",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS14016739.jpg",
+    "thumb": "assets/img/productos/thumb/GS14016739.jpg"
+  },
+  {
+    "sku": "GS14016740",
+    "nombre": "Gargantilla Trébol Negro",
+    "slug": "gargantilla-trebol-negro-gs14016740",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS14016740.jpg",
+    "thumb": "assets/img/productos/thumb/GS14016740.jpg"
+  },
+  {
+    "sku": "GS14016741",
+    "nombre": "Gargantilla Trébol Verde",
+    "slug": "gargantilla-trebol-verde-gs14016741",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS14016741.jpg",
+    "thumb": "assets/img/productos/thumb/GS14016741.jpg"
+  },
+  {
+    "sku": "G122919",
+    "nombre": "Pulsera Doble Cadena con Perla",
+    "slug": "pulsera-doble-cadena-con-perla-g122919",
+    "precio": 285,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122919.jpg",
+    "thumb": "assets/img/productos/thumb/G122919.jpg"
+  },
+  {
+    "sku": "G122920",
+    "nombre": "Pulsera Doble Eslabón",
+    "slug": "pulsera-doble-eslabon-g122920",
+    "precio": 272,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122920.jpg",
+    "thumb": "assets/img/productos/thumb/G122920.jpg"
+  },
+  {
+    "sku": "G122921",
+    "nombre": "Pulsera Eslabón Mariner",
+    "slug": "pulsera-eslabon-mariner-g122921",
+    "precio": 285,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122921.jpg",
+    "thumb": "assets/img/productos/thumb/G122921.jpg"
+  },
+  {
+    "sku": "G122922",
+    "nombre": "Pulsera Charms Corazones",
+    "slug": "pulsera-charms-corazones-g122922",
+    "precio": 324,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122922.jpg",
+    "thumb": "assets/img/productos/thumb/G122922.jpg"
+  },
+  {
+    "sku": "G122924",
+    "nombre": "Pulsera Charms Llave y Corazón",
+    "slug": "pulsera-charms-llave-y-corazon-g122924",
+    "precio": 324,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122924.jpg",
+    "thumb": "assets/img/productos/thumb/G122924.jpg"
+  },
+  {
+    "sku": "G122925",
+    "nombre": "Pulsera Medallón Grabado",
+    "slug": "pulsera-medallon-grabado-g122925",
+    "precio": 285,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122925.jpg",
+    "thumb": "assets/img/productos/thumb/G122925.jpg"
+  },
+  {
+    "sku": "G122926",
+    "nombre": "Pulsera Cruz y Hojas",
+    "slug": "pulsera-cruz-y-hojas-g122926",
+    "precio": 285,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122926.jpg",
+    "thumb": "assets/img/productos/thumb/G122926.jpg"
+  },
+  {
+    "sku": "G122927",
+    "nombre": "Pulsera Hojas Colgantes",
+    "slug": "pulsera-hojas-colgantes-g122927",
+    "precio": 246,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G122927.jpg",
+    "thumb": "assets/img/productos/thumb/G122927.jpg"
+  },
+  {
+    "sku": "G17686",
+    "nombre": "Pulsera Acero Bicolor Eslabón",
+    "slug": "pulsera-acero-bicolor-eslabon-g17686",
+    "precio": 1390,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17686.jpg",
+    "thumb": "assets/img/productos/thumb/G17686.jpg"
+  },
+  {
+    "sku": "G17687",
+    "nombre": "Pulsera Acero Bicolor Cuadros",
+    "slug": "pulsera-acero-bicolor-cuadros-g17687",
+    "precio": 1429,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17687.jpg",
+    "thumb": "assets/img/productos/thumb/G17687.jpg"
+  },
+  {
+    "sku": "G17688",
+    "nombre": "Pulsera Acero Ancla Bicolor",
+    "slug": "pulsera-acero-ancla-bicolor-g17688",
+    "precio": 1390,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17688.jpg",
+    "thumb": "assets/img/productos/thumb/G17688.jpg"
+  },
+  {
+    "sku": "G17689",
+    "nombre": "Pulsera Acero Eslabón Plata",
+    "slug": "pulsera-acero-eslabon-plata-g17689",
+    "precio": 1247,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17689.jpg",
+    "thumb": "assets/img/productos/thumb/G17689.jpg"
+  },
+  {
+    "sku": "G17690",
+    "nombre": "Pulsera Acero Negro y Plata",
+    "slug": "pulsera-acero-negro-y-plata-g17690",
+    "precio": 922,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17690.jpg",
+    "thumb": "assets/img/productos/thumb/G17690.jpg"
+  },
+  {
+    "sku": "G17691",
+    "nombre": "Pulsera Acero Negro Mate",
+    "slug": "pulsera-acero-negro-mate-g17691",
+    "precio": 883,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17691.jpg",
+    "thumb": "assets/img/productos/thumb/G17691.jpg"
+  },
+  {
+    "sku": "G17692",
+    "nombre": "Pulsera Acero Negro Doble",
+    "slug": "pulsera-acero-negro-doble-g17692",
+    "precio": 662,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17692.jpg",
+    "thumb": "assets/img/productos/thumb/G17692.jpg"
+  },
+  {
+    "sku": "G17693",
+    "nombre": "Pulsera Acero Dorada Doble",
+    "slug": "pulsera-acero-dorada-doble-g17693",
+    "precio": 350,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17693.jpg",
+    "thumb": "assets/img/productos/thumb/G17693.jpg"
+  },
+  {
+    "sku": "G17694",
+    "nombre": "Pulsera Acero Negro Trenzada",
+    "slug": "pulsera-acero-negro-trenzada-g17694",
+    "precio": 740,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17694.jpg",
+    "thumb": "assets/img/productos/thumb/G17694.jpg"
+  },
+  {
+    "sku": "G17695",
+    "nombre": "Pulsera Acero Ancla Plata",
+    "slug": "pulsera-acero-ancla-plata-g17695",
+    "precio": 844,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17695.jpg",
+    "thumb": "assets/img/productos/thumb/G17695.jpg"
+  },
+  {
+    "sku": "G17696",
+    "nombre": "Pulsera Acero Ancla con Piedras",
+    "slug": "pulsera-acero-ancla-con-piedras-g17696",
+    "precio": 766,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17696.jpg",
+    "thumb": "assets/img/productos/thumb/G17696.jpg"
+  },
+  {
+    "sku": "G17697",
+    "nombre": "Pulsera Acero Ancla Dorada",
+    "slug": "pulsera-acero-ancla-dorada-g17697",
+    "precio": 883,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17697.jpg",
+    "thumb": "assets/img/productos/thumb/G17697.jpg"
+  },
+  {
+    "sku": "G17698",
+    "nombre": "Pulsera Piel Negra con Dorado",
+    "slug": "pulsera-piel-negra-con-dorado-g17698",
+    "precio": 844,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17698.jpg",
+    "thumb": "assets/img/productos/thumb/G17698.jpg"
+  },
+  {
+    "sku": "G17699",
+    "nombre": "Pulsera Piel Negra Brújula",
+    "slug": "pulsera-piel-negra-brujula-g17699",
+    "precio": 1026,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17699.jpg",
+    "thumb": "assets/img/productos/thumb/G17699.jpg"
+  },
+  {
+    "sku": "G17700",
+    "nombre": "Pulsera Acero Negro Eslabón",
+    "slug": "pulsera-acero-negro-eslabon-g17700",
+    "precio": 922,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17700.jpg",
+    "thumb": "assets/img/productos/thumb/G17700.jpg"
+  },
+  {
+    "sku": "G17701",
+    "nombre": "Pulsera Piel y Cuentas Negras",
+    "slug": "pulsera-piel-y-cuentas-negras-g17701",
+    "precio": 883,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17701.jpg",
+    "thumb": "assets/img/productos/thumb/G17701.jpg"
+  },
+  {
+    "sku": "G17702",
+    "nombre": "Pulsera Piel Trenzada Doble Vuelta",
+    "slug": "pulsera-piel-trenzada-doble-vuelta-g17702",
+    "precio": 844,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17702.jpg",
+    "thumb": "assets/img/productos/thumb/G17702.jpg"
+  },
+  {
+    "sku": "G17703",
+    "nombre": "Pulsera Acero Negro y Dorado",
+    "slug": "pulsera-acero-negro-y-dorado-g17703",
+    "precio": 922,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/G17703.jpg",
+    "thumb": "assets/img/productos/thumb/G17703.jpg"
+  },
+  {
+    "sku": "GS122923",
+    "nombre": "Pulsera Charms Trébol y Corazón",
+    "slug": "pulsera-charms-trebol-y-corazon-gs122923",
+    "precio": 311,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS122923.jpg",
+    "thumb": "assets/img/productos/thumb/GS122923.jpg"
+  },
+  {
+    "sku": "GS128262",
+    "nombre": "Pulsera Italiana Bicolor",
+    "slug": "pulsera-italiana-bicolor-gs128262",
+    "precio": 207,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS128262.jpg",
+    "thumb": "assets/img/productos/thumb/GS128262.jpg"
+  },
+  {
+    "sku": "GS128264",
+    "nombre": "Pulsera Italiana Negra",
+    "slug": "pulsera-italiana-negra-gs128264",
+    "precio": 207,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS128264.jpg",
+    "thumb": "assets/img/productos/thumb/GS128264.jpg"
+  },
+  {
+    "sku": "GS128265",
+    "nombre": "Pulsera Italiana Acero",
+    "slug": "pulsera-italiana-acero-gs128265",
+    "precio": 207,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS128265.jpg",
+    "thumb": "assets/img/productos/thumb/GS128265.jpg"
+  },
+  {
+    "sku": "GS128266",
+    "nombre": "Pulsera Italiana Dorada",
+    "slug": "pulsera-italiana-dorada-gs128266",
+    "precio": 207,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS128266.jpg",
+    "thumb": "assets/img/productos/thumb/GS128266.jpg"
+  },
+  {
+    "sku": "GS128267",
+    "nombre": "Pulsera Italiana Bicolor Oro",
+    "slug": "pulsera-italiana-bicolor-oro-gs128267",
+    "precio": 207,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS128267.jpg",
+    "thumb": "assets/img/productos/thumb/GS128267.jpg"
+  },
+  {
+    "sku": "GS128268",
+    "nombre": "Pulsera Italiana Oro Rosa",
+    "slug": "pulsera-italiana-oro-rosa-gs128268",
+    "precio": 207,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS128268.jpg",
+    "thumb": "assets/img/productos/thumb/GS128268.jpg"
+  },
+  {
+    "sku": "GS1406899",
+    "nombre": "Pulsera Trébol Blanco",
+    "slug": "pulsera-trebol-blanco-gs1406899",
+    "precio": 194,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1406899.jpg",
+    "thumb": "assets/img/productos/thumb/GS1406899.jpg"
+  },
+  {
+    "sku": "GS1406900",
+    "nombre": "Pulsera Trébol Rojo",
+    "slug": "pulsera-trebol-rojo-gs1406900",
+    "precio": 194,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1406900.jpg",
+    "thumb": "assets/img/productos/thumb/GS1406900.jpg"
+  },
+  {
+    "sku": "GS1406901",
+    "nombre": "Pulsera Trébol Negro",
+    "slug": "pulsera-trebol-negro-gs1406901",
+    "precio": 194,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1406901.jpg",
+    "thumb": "assets/img/productos/thumb/GS1406901.jpg"
+  },
+  {
+    "sku": "GS1406902",
+    "nombre": "Pulsera Trébol Blanco Doble",
+    "slug": "pulsera-trebol-blanco-doble-gs1406902",
+    "precio": 168,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1406902.jpg",
+    "thumb": "assets/img/productos/thumb/GS1406902.jpg"
+  },
+  {
+    "sku": "GS1406903",
+    "nombre": "Pulsera Trébol Rojo Doble",
+    "slug": "pulsera-trebol-rojo-doble-gs1406903",
+    "precio": 168,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1406903.jpg",
+    "thumb": "assets/img/productos/thumb/GS1406903.jpg"
+  },
+  {
+    "sku": "GS1406904",
+    "nombre": "Pulsera Trébol Negro Doble",
+    "slug": "pulsera-trebol-negro-doble-gs1406904",
+    "precio": 168,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1406904.jpg",
+    "thumb": "assets/img/productos/thumb/GS1406904.jpg"
+  },
+  {
+    "sku": "GS1406905",
+    "nombre": "Pulsera Trébol Verde",
+    "slug": "pulsera-trebol-verde-gs1406905",
+    "precio": 168,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1406905.jpg",
+    "thumb": "assets/img/productos/thumb/GS1406905.jpg"
+  },
+  {
+    "sku": "GS1406906",
+    "nombre": "Pulsera Trébol Negro y Blanco",
+    "slug": "pulsera-trebol-negro-y-blanco-gs1406906",
+    "precio": 168,
+    "categoria": "Pulseras",
+    "material": "Acero inoxidable",
+    "medidas": [],
+    "img": "assets/img/productos/GS1406906.jpg",
+    "thumb": "assets/img/productos/thumb/GS1406906.jpg"
+  },
+  {
+    "sku": "GS03234",
+    "nombre": "Anillo Eslabón Cubano",
+    "slug": "anillo-eslabon-cubano-gs03234",
+    "precio": 259,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03234.jpg",
+    "thumb": "assets/img/productos/thumb/GS03234.jpg"
+  },
+  {
+    "sku": "GS03236",
+    "nombre": "Anillo Triple Banda con Zirconias",
+    "slug": "anillo-triple-banda-con-zirconias-gs03236",
+    "precio": 480,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03236.jpg",
+    "thumb": "assets/img/productos/thumb/GS03236.jpg"
+  },
+  {
+    "sku": "GS03239",
+    "nombre": "Anillo Eslabón Mariner",
+    "slug": "anillo-eslabon-mariner-gs03239",
+    "precio": 376,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03239.jpg",
+    "thumb": "assets/img/productos/thumb/GS03239.jpg"
+  },
+  {
+    "sku": "GS03241",
+    "nombre": "Anillo Balines con Zirconias",
+    "slug": "anillo-balines-con-zirconias-gs03241",
+    "precio": 376,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03241.jpg",
+    "thumb": "assets/img/productos/thumb/GS03241.jpg"
+  },
+  {
+    "sku": "GS03264",
+    "nombre": "Anillo Triple Banda Pavé",
+    "slug": "anillo-triple-banda-pave-gs03264",
+    "precio": 376,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03264.jpg",
+    "thumb": "assets/img/productos/thumb/GS03264.jpg"
+  },
+  {
+    "sku": "GS03267",
+    "nombre": "Anillo Cruzado Pavé",
+    "slug": "anillo-cruzado-pave-gs03267",
+    "precio": 376,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03267.jpg",
+    "thumb": "assets/img/productos/thumb/GS03267.jpg"
+  },
+  {
+    "sku": "GS03303",
+    "nombre": "Anillo Cuadrado Pavé",
+    "slug": "anillo-cuadrado-pave-gs03303",
+    "precio": 337,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03303.jpg",
+    "thumb": "assets/img/productos/thumb/GS03303.jpg"
+  },
+  {
+    "sku": "GS03730",
+    "nombre": "Anillo Flor y Hoja",
+    "slug": "anillo-flor-y-hoja-gs03730",
+    "precio": 207,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03730.jpg",
+    "thumb": "assets/img/productos/thumb/GS03730.jpg"
+  },
+  {
+    "sku": "GS03731",
+    "nombre": "Anillo Eslabón con Zirconias",
+    "slug": "anillo-eslabon-con-zirconias-gs03731",
+    "precio": 220,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03731.jpg",
+    "thumb": "assets/img/productos/thumb/GS03731.jpg"
+  },
+  {
+    "sku": "GS03739",
+    "nombre": "Anillo Corazones Abierto",
+    "slug": "anillo-corazones-abierto-gs03739",
+    "precio": 220,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03739.jpg",
+    "thumb": "assets/img/productos/thumb/GS03739.jpg"
+  },
+  {
+    "sku": "GS03754",
+    "nombre": "Anillo Cadena con Corazón",
+    "slug": "anillo-cadena-con-corazon-gs03754",
+    "precio": 220,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03754.jpg",
+    "thumb": "assets/img/productos/thumb/GS03754.jpg"
+  },
+  {
+    "sku": "GS037751",
+    "nombre": "Anillo Reloj",
+    "slug": "anillo-reloj-gs037751",
+    "precio": 220,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS037751.jpg",
+    "thumb": "assets/img/productos/thumb/GS037751.jpg"
+  },
+  {
+    "sku": "GS03809",
+    "nombre": "Anillo Nudo Pavé",
+    "slug": "anillo-nudo-pave-gs03809",
+    "precio": 220,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03809.jpg",
+    "thumb": "assets/img/productos/thumb/GS03809.jpg"
+  },
+  {
+    "sku": "GS03810",
+    "nombre": "Anillo Corazón con Zirconias",
+    "slug": "anillo-corazon-con-zirconias-gs03810",
+    "precio": 259,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03810.jpg",
+    "thumb": "assets/img/productos/thumb/GS03810.jpg"
+  },
+  {
+    "sku": "GS038251",
+    "nombre": "Anillo Abeja y Flor",
+    "slug": "anillo-abeja-y-flor-gs038251",
+    "precio": 259,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS038251.jpg",
+    "thumb": "assets/img/productos/thumb/GS038251.jpg"
+  },
+  {
+    "sku": "GS03828",
+    "nombre": "Anillo Serpiente Pavé",
+    "slug": "anillo-serpiente-pave-gs03828",
+    "precio": 298,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03828.jpg",
+    "thumb": "assets/img/productos/thumb/GS03828.jpg"
+  },
+  {
+    "sku": "GS03832",
+    "nombre": "Anillo Libélula Multicolor",
+    "slug": "anillo-libelula-multicolor-gs03832",
+    "precio": 220,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03832.jpg",
+    "thumb": "assets/img/productos/thumb/GS03832.jpg"
+  },
+  {
+    "sku": "GS03834",
+    "nombre": "Anillo Doble Banda Marquesa",
+    "slug": "anillo-doble-banda-marquesa-gs03834",
+    "precio": 2131,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03834.jpg",
+    "thumb": "assets/img/productos/thumb/GS03834.jpg"
+  },
+  {
+    "sku": "GS03844",
+    "nombre": "Anillo Cruzado Trenzado",
+    "slug": "anillo-cruzado-trenzado-gs03844",
+    "precio": 220,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03844.jpg",
+    "thumb": "assets/img/productos/thumb/GS03844.jpg"
+  },
+  {
+    "sku": "GS03846",
+    "nombre": "Anillo Triple Banda Baguette",
+    "slug": "anillo-triple-banda-baguette-gs03846",
+    "precio": 259,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03846.jpg",
+    "thumb": "assets/img/productos/thumb/GS03846.jpg"
+  },
+  {
+    "sku": "GS038481",
+    "nombre": "Anillo Libélula Pavé",
+    "slug": "anillo-libelula-pave-gs038481",
+    "precio": 259,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS038481.jpg",
+    "thumb": "assets/img/productos/thumb/GS038481.jpg"
+  },
+  {
+    "sku": "GS0384811",
+    "nombre": "Anillo Serpiente Turquesa",
+    "slug": "anillo-serpiente-turquesa-gs0384811",
+    "precio": 259,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS0384811.jpg",
+    "thumb": "assets/img/productos/thumb/GS0384811.jpg"
+  },
+  {
+    "sku": "GS03852",
+    "nombre": "Anillo Cruzado Zirconias",
+    "slug": "anillo-cruzado-zirconias-gs03852",
+    "precio": 220,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03852.jpg",
+    "thumb": "assets/img/productos/thumb/GS03852.jpg"
+  },
+  {
+    "sku": "GS038601",
+    "nombre": "Anillo Serpiente Multicolor",
+    "slug": "anillo-serpiente-multicolor-gs038601",
+    "precio": 220,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS038601.jpg",
+    "thumb": "assets/img/productos/thumb/GS038601.jpg"
+  },
+  {
+    "sku": "GS03862",
+    "nombre": "Anillo Eslabón Baguette",
+    "slug": "anillo-eslabon-baguette-gs03862",
+    "precio": 220,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03862.jpg",
+    "thumb": "assets/img/productos/thumb/GS03862.jpg"
+  },
+  {
+    "sku": "GS03922",
+    "nombre": "Anillo Esfera Pavé",
+    "slug": "anillo-esfera-pave-gs03922",
+    "precio": 207,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03922.jpg",
+    "thumb": "assets/img/productos/thumb/GS03922.jpg"
+  },
+  {
+    "sku": "GS039911",
+    "nombre": "Anillo Flor con Perla",
+    "slug": "anillo-flor-con-perla-gs039911",
+    "precio": 337,
+    "categoria": "Anillos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS039911.jpg",
+    "thumb": "assets/img/productos/thumb/GS039911.jpg"
+  },
+  {
+    "sku": "CAR3590",
+    "nombre": "Aretes Ámbar Cuadrado",
+    "slug": "aretes-ambar-cuadrado-car3590",
+    "precio": 272,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/CAR3590.jpg",
+    "thumb": "assets/img/productos/thumb/CAR3590.jpg"
+  },
+  {
+    "sku": "GAR3620",
+    "nombre": "Aretes Gota Lisa",
+    "slug": "aretes-gota-lisa-gar3620",
+    "precio": 285,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GAR3620.jpg",
+    "thumb": "assets/img/productos/thumb/GAR3620.jpg"
+  },
+  {
+    "sku": "GAR3621",
+    "nombre": "Aretes Gota Pequeña",
+    "slug": "aretes-gota-pequena-gar3621",
+    "precio": 246,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GAR3621.jpg",
+    "thumb": "assets/img/productos/thumb/GAR3621.jpg"
+  },
+  {
+    "sku": "GAR588",
+    "nombre": "Aretes Flor Pavé",
+    "slug": "aretes-flor-pave-gar588",
+    "precio": 493,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GAR588.jpg",
+    "thumb": "assets/img/productos/thumb/GAR588.jpg"
+  },
+  {
+    "sku": "GAR968",
+    "nombre": "Aretes Ojo de Tigre",
+    "slug": "aretes-ojo-de-tigre-gar968",
+    "precio": 272,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GAR968.jpg",
+    "thumb": "assets/img/productos/thumb/GAR968.jpg"
+  },
+  {
+    "sku": "GB1539",
+    "nombre": "Aretes Esfera Grande",
+    "slug": "aretes-esfera-grande-gb1539",
+    "precio": 259,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [
+      "1.5 cm"
+    ],
+    "img": "assets/img/productos/GB1539.jpg",
+    "thumb": "assets/img/productos/thumb/GB1539.jpg"
+  },
+  {
+    "sku": "GB1540",
+    "nombre": "Aretes Esfera Mediana",
+    "slug": "aretes-esfera-mediana-gb1540",
+    "precio": 181,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [
+      "1.2 cm"
+    ],
+    "img": "assets/img/productos/GB1540.jpg",
+    "thumb": "assets/img/productos/thumb/GB1540.jpg"
+  },
+  {
+    "sku": "GB1541",
+    "nombre": "Aretes Media Esfera",
+    "slug": "aretes-media-esfera-gb1541",
+    "precio": 155,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [
+      "1 cm"
+    ],
+    "img": "assets/img/productos/GB1541.jpg",
+    "thumb": "assets/img/productos/thumb/GB1541.jpg"
+  },
+  {
+    "sku": "GB1542",
+    "nombre": "Aretes Esfera Pequeña",
+    "slug": "aretes-esfera-pequena-gb1542",
+    "precio": 129,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm"
+    ],
+    "img": "assets/img/productos/GB1542.jpg",
+    "thumb": "assets/img/productos/thumb/GB1542.jpg"
+  },
+  {
+    "sku": "GS03468",
+    "nombre": "Aretes Argolla con Dijes",
+    "slug": "aretes-argolla-con-dijes-gs03468",
+    "precio": 662,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03468.jpg",
+    "thumb": "assets/img/productos/thumb/GS03468.jpg"
+  },
+  {
+    "sku": "GS03514",
+    "nombre": "Aretes Margarita Texturizada",
+    "slug": "aretes-margarita-texturizada-gs03514",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [
+      "1.5 cm"
+    ],
+    "img": "assets/img/productos/GS03514.jpg",
+    "thumb": "assets/img/productos/thumb/GS03514.jpg"
+  },
+  {
+    "sku": "GS03515",
+    "nombre": "Aretes Flor Ondulada",
+    "slug": "aretes-flor-ondulada-gs03515",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03515.jpg",
+    "thumb": "assets/img/productos/thumb/GS03515.jpg"
+  },
+  {
+    "sku": "GS03517",
+    "nombre": "Aretes Orquídea",
+    "slug": "aretes-orquidea-gs03517",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03517.jpg",
+    "thumb": "assets/img/productos/thumb/GS03517.jpg"
+  },
+  {
+    "sku": "GS03519",
+    "nombre": "Aretes Argolla Triple",
+    "slug": "aretes-argolla-triple-gs03519",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03519.jpg",
+    "thumb": "assets/img/productos/thumb/GS03519.jpg"
+  },
+  {
+    "sku": "GS03521",
+    "nombre": "Aretes Flor con Zirconia",
+    "slug": "aretes-flor-con-zirconia-gs03521",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03521.jpg",
+    "thumb": "assets/img/productos/thumb/GS03521.jpg"
+  },
+  {
+    "sku": "GS03554",
+    "nombre": "Aretes Flor con Perla y Zirconias",
+    "slug": "aretes-flor-con-perla-y-zirconias-gs03554",
+    "precio": 298,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03554.jpg",
+    "thumb": "assets/img/productos/thumb/GS03554.jpg"
+  },
+  {
+    "sku": "GS03556",
+    "nombre": "Aretes Flor Martillada con Perla",
+    "slug": "aretes-flor-martillada-con-perla-gs03556",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03556.jpg",
+    "thumb": "assets/img/productos/thumb/GS03556.jpg"
+  },
+  {
+    "sku": "GS03558",
+    "nombre": "Aretes Perla Barroca",
+    "slug": "aretes-perla-barroca-gs03558",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03558.jpg",
+    "thumb": "assets/img/productos/thumb/GS03558.jpg"
+  },
+  {
+    "sku": "GS03709",
+    "nombre": "Aretes Cuarzo Rosa Redondo",
+    "slug": "aretes-cuarzo-rosa-redondo-gs03709",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03709.jpg",
+    "thumb": "assets/img/productos/thumb/GS03709.jpg"
+  },
+  {
+    "sku": "GS03710",
+    "nombre": "Aretes Ámbar Redondo",
+    "slug": "aretes-ambar-redondo-gs03710",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03710.jpg",
+    "thumb": "assets/img/productos/thumb/GS03710.jpg"
+  },
+  {
+    "sku": "GS03721",
+    "nombre": "Aretes Perla Oval con Zirconias",
+    "slug": "aretes-perla-oval-con-zirconias-gs03721",
+    "precio": 298,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03721.jpg",
+    "thumb": "assets/img/productos/thumb/GS03721.jpg"
+  },
+  {
+    "sku": "GS03745",
+    "nombre": "Aretes Granate Rectangular",
+    "slug": "aretes-granate-rectangular-gs03745",
+    "precio": 272,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03745.jpg",
+    "thumb": "assets/img/productos/thumb/GS03745.jpg"
+  },
+  {
+    "sku": "GS03746",
+    "nombre": "Aretes Ámbar Rectangular",
+    "slug": "aretes-ambar-rectangular-gs03746",
+    "precio": 272,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03746.jpg",
+    "thumb": "assets/img/productos/thumb/GS03746.jpg"
+  },
+  {
+    "sku": "GS03757",
+    "nombre": "Aretes Estrella de Mar",
+    "slug": "aretes-estrella-de-mar-gs03757",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03757.jpg",
+    "thumb": "assets/img/productos/thumb/GS03757.jpg"
+  },
+  {
+    "sku": "GS03761",
+    "nombre": "Aretes Girasol",
+    "slug": "aretes-girasol-gs03761",
+    "precio": 259,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [
+      "2.5 cm"
+    ],
+    "img": "assets/img/productos/GS03761.jpg",
+    "thumb": "assets/img/productos/thumb/GS03761.jpg"
+  },
+  {
+    "sku": "GS03762",
+    "nombre": "Aretes Flor Cinco Pétalos",
+    "slug": "aretes-flor-cinco-petalos-gs03762",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03762.jpg",
+    "thumb": "assets/img/productos/thumb/GS03762.jpg"
+  },
+  {
+    "sku": "GS03763",
+    "nombre": "Aretes Flor Doble Capa",
+    "slug": "aretes-flor-doble-capa-gs03763",
+    "precio": 259,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 cm"
+    ],
+    "img": "assets/img/productos/GS03763.jpg",
+    "thumb": "assets/img/productos/thumb/GS03763.jpg"
+  },
+  {
+    "sku": "GS03764A",
+    "nombre": "Aretes Esfera Colgante",
+    "slug": "aretes-esfera-colgante-gs03764a",
+    "precio": 259,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03764A.jpg",
+    "thumb": "assets/img/productos/thumb/GS03764A.jpg"
+  },
+  {
+    "sku": "GS03765",
+    "nombre": "Aretes Barras y Esfera",
+    "slug": "aretes-barras-y-esfera-gs03765",
+    "precio": 259,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03765.jpg",
+    "thumb": "assets/img/productos/thumb/GS03765.jpg"
+  },
+  {
+    "sku": "GS03769",
+    "nombre": "Aretes Trébol Texturizado",
+    "slug": "aretes-trebol-texturizado-gs03769",
+    "precio": 259,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03769.jpg",
+    "thumb": "assets/img/productos/thumb/GS03769.jpg"
+  },
+  {
+    "sku": "GS03775",
+    "nombre": "Aretes Cuarzo Gota",
+    "slug": "aretes-cuarzo-gota-gs03775",
+    "precio": 272,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03775.jpg",
+    "thumb": "assets/img/productos/thumb/GS03775.jpg"
+  },
+  {
+    "sku": "GS03777",
+    "nombre": "Aretes Ámbar Gota",
+    "slug": "aretes-ambar-gota-gs03777",
+    "precio": 272,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03777.jpg",
+    "thumb": "assets/img/productos/thumb/GS03777.jpg"
+  },
+  {
+    "sku": "GS03787",
+    "nombre": "Aretes Mini Flores Surtidos",
+    "slug": "aretes-mini-flores-surtidos-gs03787",
+    "precio": 662,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03787.jpg",
+    "thumb": "assets/img/productos/thumb/GS03787.jpg"
+  },
+  {
+    "sku": "GS03788",
+    "nombre": "Aretes Mini Moños Surtidos",
+    "slug": "aretes-mini-monos-surtidos-gs03788",
+    "precio": 636,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03788.jpg",
+    "thumb": "assets/img/productos/thumb/GS03788.jpg"
+  },
+  {
+    "sku": "GS03790",
+    "nombre": "Aretes Trepadores de Flores",
+    "slug": "aretes-trepadores-de-flores-gs03790",
+    "precio": 558,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03790.jpg",
+    "thumb": "assets/img/productos/thumb/GS03790.jpg"
+  },
+  {
+    "sku": "GS03958",
+    "nombre": "Aretes Media Esfera Grande",
+    "slug": "aretes-media-esfera-grande-gs03958",
+    "precio": 246,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [
+      "1 cm"
+    ],
+    "img": "assets/img/productos/GS03958.jpg",
+    "thumb": "assets/img/productos/thumb/GS03958.jpg"
+  },
+  {
+    "sku": "GS03962",
+    "nombre": "Aretes Flor con Perla y Circonias",
+    "slug": "aretes-flor-con-perla-y-circonias-gs03962",
+    "precio": 298,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03962.jpg",
+    "thumb": "assets/img/productos/thumb/GS03962.jpg"
+  },
+  {
+    "sku": "GS03963",
+    "nombre": "Aretes Sol con Perla",
+    "slug": "aretes-sol-con-perla-gs03963",
+    "precio": 259,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03963.jpg",
+    "thumb": "assets/img/productos/thumb/GS03963.jpg"
+  },
+  {
+    "sku": "GS03966",
+    "nombre": "Aretes Caracol y Estrella de Mar",
+    "slug": "aretes-caracol-y-estrella-de-mar-gs03966",
+    "precio": 220,
+    "categoria": "Aretes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03966.jpg",
+    "thumb": "assets/img/productos/thumb/GS03966.jpg"
+  },
+  {
+    "sku": "GC2834",
+    "nombre": "Gargantilla Punto de Luz Cristal",
+    "slug": "gargantilla-punto-de-luz-cristal-gc2834",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC2834.jpg",
+    "thumb": "assets/img/productos/thumb/GC2834.jpg"
+  },
+  {
+    "sku": "GC825",
+    "nombre": "Gargantilla Punto de Luz Rojo",
+    "slug": "gargantilla-punto-de-luz-rojo-gc825",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC825.jpg",
+    "thumb": "assets/img/productos/thumb/GC825.jpg"
+  },
+  {
+    "sku": "GC826",
+    "nombre": "Gargantilla Punto de Luz Morado",
+    "slug": "gargantilla-punto-de-luz-morado-gc826",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC826.jpg",
+    "thumb": "assets/img/productos/thumb/GC826.jpg"
+  },
+  {
+    "sku": "GC827",
+    "nombre": "Gargantilla Punto de Luz Champagne",
+    "slug": "gargantilla-punto-de-luz-champagne-gc827",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC827.jpg",
+    "thumb": "assets/img/productos/thumb/GC827.jpg"
+  },
+  {
+    "sku": "GC828",
+    "nombre": "Gargantilla Punto de Luz Verde",
+    "slug": "gargantilla-punto-de-luz-verde-gc828",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC828.jpg",
+    "thumb": "assets/img/productos/thumb/GC828.jpg"
+  },
+  {
+    "sku": "GC829",
+    "nombre": "Gargantilla Punto de Luz Rubí",
+    "slug": "gargantilla-punto-de-luz-rubi-gc829",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC829.jpg",
+    "thumb": "assets/img/productos/thumb/GC829.jpg"
+  },
+  {
+    "sku": "GC830",
+    "nombre": "Gargantilla Punto de Luz Negro",
+    "slug": "gargantilla-punto-de-luz-negro-gc830",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC830.jpg",
+    "thumb": "assets/img/productos/thumb/GC830.jpg"
+  },
+  {
+    "sku": "GC831",
+    "nombre": "Gargantilla Punto de Luz Rosa",
+    "slug": "gargantilla-punto-de-luz-rosa-gc831",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC831.jpg",
+    "thumb": "assets/img/productos/thumb/GC831.jpg"
+  },
+  {
+    "sku": "GC832",
+    "nombre": "Gargantilla Punto de Luz Aqua",
+    "slug": "gargantilla-punto-de-luz-aqua-gc832",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC832.jpg",
+    "thumb": "assets/img/productos/thumb/GC832.jpg"
+  },
+  {
+    "sku": "GC833",
+    "nombre": "Gargantilla Plata Punto de Luz Morado",
+    "slug": "gargantilla-plata-punto-de-luz-morado-gc833",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC833.jpg",
+    "thumb": "assets/img/productos/thumb/GC833.jpg"
+  },
+  {
+    "sku": "GC835",
+    "nombre": "Gargantilla Plata Punto de Luz Verde",
+    "slug": "gargantilla-plata-punto-de-luz-verde-gc835",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC835.jpg",
+    "thumb": "assets/img/productos/thumb/GC835.jpg"
+  },
+  {
+    "sku": "GC836",
+    "nombre": "Gargantilla Plata Punto de Luz Rubí",
+    "slug": "gargantilla-plata-punto-de-luz-rubi-gc836",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC836.jpg",
+    "thumb": "assets/img/productos/thumb/GC836.jpg"
+  },
+  {
+    "sku": "GC837",
+    "nombre": "Gargantilla Plata Punto de Luz Azul",
+    "slug": "gargantilla-plata-punto-de-luz-azul-gc837",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC837.jpg",
+    "thumb": "assets/img/productos/thumb/GC837.jpg"
+  },
+  {
+    "sku": "GC838",
+    "nombre": "Gargantilla Plata Punto de Luz Rosa",
+    "slug": "gargantilla-plata-punto-de-luz-rosa-gc838",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC838.jpg",
+    "thumb": "assets/img/productos/thumb/GC838.jpg"
+  },
+  {
+    "sku": "GC839",
+    "nombre": "Gargantilla Plata Punto de Luz Aqua",
+    "slug": "gargantilla-plata-punto-de-luz-aqua-gc839",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC839.jpg",
+    "thumb": "assets/img/productos/thumb/GC839.jpg"
+  },
+  {
+    "sku": "GC844",
+    "nombre": "Gargantilla Punto de Luz Ónix",
+    "slug": "gargantilla-punto-de-luz-onix-gc844",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC844.jpg",
+    "thumb": "assets/img/productos/thumb/GC844.jpg"
+  },
+  {
+    "sku": "GC845",
+    "nombre": "Gargantilla Punto de Luz Blanco",
+    "slug": "gargantilla-punto-de-luz-blanco-gc845",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC845.jpg",
+    "thumb": "assets/img/productos/thumb/GC845.jpg"
+  },
+  {
+    "sku": "GC846",
+    "nombre": "Gargantilla Plata Punto de Luz Blanco",
+    "slug": "gargantilla-plata-punto-de-luz-blanco-gc846",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GC846.jpg",
+    "thumb": "assets/img/productos/thumb/GC846.jpg"
+  },
+  {
+    "sku": "GS03002",
+    "nombre": "Gargantilla Corazón Rojo",
+    "slug": "gargantilla-corazon-rojo-gs03002",
+    "precio": 220,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03002.jpg",
+    "thumb": "assets/img/productos/thumb/GS03002.jpg"
+  },
+  {
+    "sku": "GS03006",
+    "nombre": "Gargantilla Corazón Rojo con Cadena",
+    "slug": "gargantilla-corazon-rojo-con-cadena-gs03006",
+    "precio": 220,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03006.jpg",
+    "thumb": "assets/img/productos/thumb/GS03006.jpg"
+  },
+  {
+    "sku": "GS03087",
+    "nombre": "Gargantilla Candado Corazón Rosa",
+    "slug": "gargantilla-candado-corazon-rosa-gs03087",
+    "precio": 376,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03087.jpg",
+    "thumb": "assets/img/productos/thumb/GS03087.jpg"
+  },
+  {
+    "sku": "GS03094",
+    "nombre": "Gargantilla Candado Flor",
+    "slug": "gargantilla-candado-flor-gs03094",
+    "precio": 376,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03094.jpg",
+    "thumb": "assets/img/productos/thumb/GS03094.jpg"
+  },
+  {
+    "sku": "GS03112",
+    "nombre": "Gargantilla Perlas con Flor",
+    "slug": "gargantilla-perlas-con-flor-gs03112",
+    "precio": 480,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03112.jpg",
+    "thumb": "assets/img/productos/thumb/GS03112.jpg"
+  },
+  {
+    "sku": "GS03327",
+    "nombre": "Gargantilla Dije Ámbar",
+    "slug": "gargantilla-dije-ambar-gs03327",
+    "precio": 298,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03327.jpg",
+    "thumb": "assets/img/productos/thumb/GS03327.jpg"
+  },
+  {
+    "sku": "GS03414",
+    "nombre": "Gargantilla Estrella Pavé",
+    "slug": "gargantilla-estrella-pave-gs03414",
+    "precio": 259,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03414.jpg",
+    "thumb": "assets/img/productos/thumb/GS03414.jpg"
+  },
+  {
+    "sku": "GS03415",
+    "nombre": "Gargantilla Corazón Pavé",
+    "slug": "gargantilla-corazon-pave-gs03415",
+    "precio": 259,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03415.jpg",
+    "thumb": "assets/img/productos/thumb/GS03415.jpg"
+  },
+  {
+    "sku": "GS03416",
+    "nombre": "Gargantilla Cruz Pavé",
+    "slug": "gargantilla-cruz-pave-gs03416",
+    "precio": 259,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03416.jpg",
+    "thumb": "assets/img/productos/thumb/GS03416.jpg"
+  },
+  {
+    "sku": "GS03848",
+    "nombre": "Gargantilla Riviera Corazones",
+    "slug": "gargantilla-riviera-corazones-gs03848",
+    "precio": 961,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03848.jpg",
+    "thumb": "assets/img/productos/thumb/GS03848.jpg"
+  },
+  {
+    "sku": "GS03850",
+    "nombre": "Gargantilla Riviera Rubí",
+    "slug": "gargantilla-riviera-rubi-gs03850",
+    "precio": 961,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03850.jpg",
+    "thumb": "assets/img/productos/thumb/GS03850.jpg"
+  },
+  {
+    "sku": "GS03884",
+    "nombre": "Gargantilla Balines con Charms",
+    "slug": "gargantilla-balines-con-charms-gs03884",
+    "precio": 272,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03884.jpg",
+    "thumb": "assets/img/productos/thumb/GS03884.jpg"
+  },
+  {
+    "sku": "GS03886",
+    "nombre": "Gargantilla Balines con Dijes",
+    "slug": "gargantilla-balines-con-dijes-gs03886",
+    "precio": 272,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03886.jpg",
+    "thumb": "assets/img/productos/thumb/GS03886.jpg"
+  },
+  {
+    "sku": "GS03989",
+    "nombre": "Gargantilla Estrella y Balines",
+    "slug": "gargantilla-estrella-y-balines-gs03989",
+    "precio": 259,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03989.jpg",
+    "thumb": "assets/img/productos/thumb/GS03989.jpg"
+  },
+  {
+    "sku": "GS03990",
+    "nombre": "Gargantilla Corazón y Balines",
+    "slug": "gargantilla-corazon-y-balines-gs03990",
+    "precio": 259,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03990.jpg",
+    "thumb": "assets/img/productos/thumb/GS03990.jpg"
+  },
+  {
+    "sku": "GS03991",
+    "nombre": "Gargantilla Cruz y Balines",
+    "slug": "gargantilla-cruz-y-balines-gs03991",
+    "precio": 259,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03991.jpg",
+    "thumb": "assets/img/productos/thumb/GS03991.jpg"
+  },
+  {
+    "sku": "ZG286",
+    "nombre": "Gargantilla Virgen de Guadalupe",
+    "slug": "gargantilla-virgen-de-guadalupe-zg286",
+    "precio": 194,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/ZG286.jpg",
+    "thumb": "assets/img/productos/thumb/ZG286.jpg"
+  },
+  {
+    "sku": "ZG290",
+    "nombre": "Gargantilla San Judas Oval",
+    "slug": "gargantilla-san-judas-oval-zg290",
+    "precio": 192,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/ZG290.jpg",
+    "thumb": "assets/img/productos/thumb/ZG290.jpg"
+  },
+  {
+    "sku": "ZG3449",
+    "nombre": "Gargantilla San Judas Redonda",
+    "slug": "gargantilla-san-judas-redonda-zg3449",
+    "precio": 129,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/ZG3449.jpg",
+    "thumb": "assets/img/productos/thumb/ZG3449.jpg"
+  },
+  {
+    "sku": "ZG3481",
+    "nombre": "Gargantilla Cruz Zirconias",
+    "slug": "gargantilla-cruz-zirconias-zg3481",
+    "precio": 207,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/ZG3481.jpg",
+    "thumb": "assets/img/productos/thumb/ZG3481.jpg"
+  },
+  {
+    "sku": "ZG437",
+    "nombre": "Gargantilla Cruz Zirconias Delgada",
+    "slug": "gargantilla-cruz-zirconias-delgada-zg437",
+    "precio": 146,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/ZG437.jpg",
+    "thumb": "assets/img/productos/thumb/ZG437.jpg"
+  },
+  {
+    "sku": "ZG443",
+    "nombre": "Gargantilla Crucifijo",
+    "slug": "gargantilla-crucifijo-zg443",
+    "precio": 229,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/ZG443.jpg",
+    "thumb": "assets/img/productos/thumb/ZG443.jpg"
+  },
+  {
+    "sku": "ZG589",
+    "nombre": "Gargantilla San Judas Esmaltado",
+    "slug": "gargantilla-san-judas-esmaltado-zg589",
+    "precio": 120,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/ZG589.jpg",
+    "thumb": "assets/img/productos/thumb/ZG589.jpg"
+  },
+  {
+    "sku": "ZG713",
+    "nombre": "Gargantilla Cruz Pavé Ancha",
+    "slug": "gargantilla-cruz-pave-ancha-zg713",
+    "precio": 259,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/ZG713.jpg",
+    "thumb": "assets/img/productos/thumb/ZG713.jpg"
+  },
+  {
+    "sku": "ZG721",
+    "nombre": "Gargantilla Cruz Baguette",
+    "slug": "gargantilla-cruz-baguette-zg721",
+    "precio": 142,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/ZG721.jpg",
+    "thumb": "assets/img/productos/thumb/ZG721.jpg"
+  },
+  {
+    "sku": "ZG733",
+    "nombre": "Gargantilla Medalla San Benito",
+    "slug": "gargantilla-medalla-san-benito-zg733",
+    "precio": 192,
+    "categoria": "Gargantillas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/ZG733.jpg",
+    "thumb": "assets/img/productos/thumb/ZG733.jpg"
+  },
+  {
+    "sku": "GAJ15750",
+    "nombre": "Cadena Figaro",
+    "slug": "cadena-figaro-gaj15750",
+    "precio": 1078,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "50 cm"
+    ],
+    "img": "assets/img/productos/GAJ15750.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ15750.jpg"
+  },
+  {
+    "sku": "GAJ15760",
+    "nombre": "Cadena Figaro",
+    "slug": "cadena-figaro-gaj15760",
+    "precio": 1273,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ15760.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ15760.jpg"
+  },
+  {
+    "sku": "GAJ22050",
+    "nombre": "Cadena Barbada",
+    "slug": "cadena-barbada-gaj22050",
+    "precio": 922,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "50 cm"
+    ],
+    "img": "assets/img/productos/GAJ22050.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ22050.jpg"
+  },
+  {
+    "sku": "GAJ22060",
+    "nombre": "Cadena Barbada",
+    "slug": "cadena-barbada-gaj22060",
+    "precio": 1143,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ22060.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ22060.jpg"
+  },
+  {
+    "sku": "GC081819",
+    "nombre": "Cadena Forzada Alargada",
+    "slug": "cadena-forzada-alargada-gc081819",
+    "precio": 116,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 mm",
+      "45 cm"
+    ],
+    "img": "assets/img/productos/GC081819.jpg",
+    "thumb": "assets/img/productos/thumb/GC081819.jpg"
+  },
+  {
+    "sku": "GC081820",
+    "nombre": "Cadena Forzada Alargada",
+    "slug": "cadena-forzada-alargada-gc081820",
+    "precio": 129,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 mm",
+      "50 cm"
+    ],
+    "img": "assets/img/productos/GC081820.jpg",
+    "thumb": "assets/img/productos/thumb/GC081820.jpg"
+  },
+  {
+    "sku": "GC081821",
+    "nombre": "Cadena Eslabón Rectangular",
+    "slug": "cadena-eslabon-rectangular-gc081821",
+    "precio": 142,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "45 cm"
+    ],
+    "img": "assets/img/productos/GC081821.jpg",
+    "thumb": "assets/img/productos/thumb/GC081821.jpg"
+  },
+  {
+    "sku": "GC081822",
+    "nombre": "Cadena Eslabón Rectangular",
+    "slug": "cadena-eslabon-rectangular-gc081822",
+    "precio": 155,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "50 cm"
+    ],
+    "img": "assets/img/productos/GC081822.jpg",
+    "thumb": "assets/img/productos/thumb/GC081822.jpg"
+  },
+  {
+    "sku": "GC081823",
+    "nombre": "Cadena Eslabón Fino",
+    "slug": "cadena-eslabon-fino-gc081823",
+    "precio": 116,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 mm",
+      "45 cm"
+    ],
+    "img": "assets/img/productos/GC081823.jpg",
+    "thumb": "assets/img/productos/thumb/GC081823.jpg"
+  },
+  {
+    "sku": "GC081824",
+    "nombre": "Cadena Eslabón Fino",
+    "slug": "cadena-eslabon-fino-gc081824",
+    "precio": 129,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 mm",
+      "50 cm"
+    ],
+    "img": "assets/img/productos/GC081824.jpg",
+    "thumb": "assets/img/productos/thumb/GC081824.jpg"
+  },
+  {
+    "sku": "ZG59565",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59565",
+    "precio": 155,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "2.5 mm",
+      "45 cm"
+    ],
+    "img": "assets/img/productos/ZG59565.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59565.jpg"
+  },
+  {
+    "sku": "ZG59566",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59566",
+    "precio": 155,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "2.5 mm",
+      "50 cm"
+    ],
+    "img": "assets/img/productos/ZG59566.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59566.jpg"
+  },
+  {
+    "sku": "ZG59567",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59567",
+    "precio": 168,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "2.5 mm",
+      "55 cm"
+    ],
+    "img": "assets/img/productos/ZG59567.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59567.jpg"
+  },
+  {
+    "sku": "ZG59568",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59568",
+    "precio": 181,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "2.5 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/ZG59568.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59568.jpg"
+  },
+  {
+    "sku": "ZG59569",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59569",
+    "precio": 194,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3.5 mm",
+      "45 cm"
+    ],
+    "img": "assets/img/productos/ZG59569.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59569.jpg"
+  },
+  {
+    "sku": "ZG59570",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59570",
+    "precio": 194,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3.5 mm",
+      "50 cm"
+    ],
+    "img": "assets/img/productos/ZG59570.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59570.jpg"
+  },
+  {
+    "sku": "ZG59571",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59571",
+    "precio": 207,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3.5 mm",
+      "55 cm"
+    ],
+    "img": "assets/img/productos/ZG59571.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59571.jpg"
+  },
+  {
+    "sku": "ZG59572",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59572",
+    "precio": 233,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3.5 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/ZG59572.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59572.jpg"
+  },
+  {
+    "sku": "ZG59573",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59573",
+    "precio": 246,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3.5 mm",
+      "65 cm"
+    ],
+    "img": "assets/img/productos/ZG59573.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59573.jpg"
+  },
+  {
+    "sku": "ZG59574",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59574",
+    "precio": 272,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "5 mm",
+      "50 cm"
+    ],
+    "img": "assets/img/productos/ZG59574.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59574.jpg"
+  },
+  {
+    "sku": "ZG59575",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59575",
+    "precio": 298,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "5 mm",
+      "55 cm"
+    ],
+    "img": "assets/img/productos/ZG59575.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59575.jpg"
+  },
+  {
+    "sku": "ZG59576",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59576",
+    "precio": 324,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "5 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/ZG59576.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59576.jpg"
+  },
+  {
+    "sku": "ZG59577",
+    "nombre": "Cadena Torzal",
+    "slug": "cadena-torzal-zg59577",
+    "precio": 337,
+    "categoria": "Cadenas",
+    "material": "Chapa de oro",
+    "medidas": [
+      "5 mm",
+      "65 cm"
+    ],
+    "img": "assets/img/productos/ZG59577.jpg",
+    "thumb": "assets/img/productos/thumb/ZG59577.jpg"
+  },
+  {
+    "sku": "G79035",
+    "nombre": "Dije Letra Cursiva con Zirconias",
+    "slug": "dije-letra-cursiva-con-zirconias-g79035",
+    "precio": 90,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79035.jpg",
+    "thumb": "assets/img/productos/thumb/G79035.jpg"
+  },
+  {
+    "sku": "G79043",
+    "nombre": "Dije Letra Globo",
+    "slug": "dije-letra-globo-g79043",
+    "precio": 77,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79043.jpg",
+    "thumb": "assets/img/productos/thumb/G79043.jpg"
+  },
+  {
+    "sku": "G79048",
+    "nombre": "Dije Letra Bloque con Zirconias",
+    "slug": "dije-letra-bloque-con-zirconias-g79048",
+    "precio": 90,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79048.jpg",
+    "thumb": "assets/img/productos/thumb/G79048.jpg"
+  },
+  {
+    "sku": "G79119",
+    "nombre": "Dije Charm Luna y Medalla",
+    "slug": "dije-charm-luna-y-medalla-g79119",
+    "precio": 116,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79119.jpg",
+    "thumb": "assets/img/productos/thumb/G79119.jpg"
+  },
+  {
+    "sku": "G79120",
+    "nombre": "Dije Charm Osito Rojo",
+    "slug": "dije-charm-osito-rojo-g79120",
+    "precio": 155,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79120.jpg",
+    "thumb": "assets/img/productos/thumb/G79120.jpg"
+  },
+  {
+    "sku": "G79121",
+    "nombre": "Dije Charm Flor y Molino",
+    "slug": "dije-charm-flor-y-molino-g79121",
+    "precio": 155,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79121.jpg",
+    "thumb": "assets/img/productos/thumb/G79121.jpg"
+  },
+  {
+    "sku": "G79122",
+    "nombre": "Dije Charm Hueso y Huella",
+    "slug": "dije-charm-hueso-y-huella-g79122",
+    "precio": 155,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79122.jpg",
+    "thumb": "assets/img/productos/thumb/G79122.jpg"
+  },
+  {
+    "sku": "G79123",
+    "nombre": "Dije Torre Eiffel Colgante",
+    "slug": "dije-torre-eiffel-colgante-g79123",
+    "precio": 116,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79123.jpg",
+    "thumb": "assets/img/productos/thumb/G79123.jpg"
+  },
+  {
+    "sku": "G79124",
+    "nombre": "Dije Charm Abanico y Pez",
+    "slug": "dije-charm-abanico-y-pez-g79124",
+    "precio": 155,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79124.jpg",
+    "thumb": "assets/img/productos/thumb/G79124.jpg"
+  },
+  {
+    "sku": "G79125",
+    "nombre": "Dije Charm Corazón Grabado",
+    "slug": "dije-charm-corazon-grabado-g79125",
+    "precio": 116,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79125.jpg",
+    "thumb": "assets/img/productos/thumb/G79125.jpg"
+  },
+  {
+    "sku": "G79127",
+    "nombre": "Dije Charm Trébol Rojo",
+    "slug": "dije-charm-trebol-rojo-g79127",
+    "precio": 116,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79127.jpg",
+    "thumb": "assets/img/productos/thumb/G79127.jpg"
+  },
+  {
+    "sku": "G79128",
+    "nombre": "Dije Charm Torre Eiffel y Bolso",
+    "slug": "dije-charm-torre-eiffel-y-bolso-g79128",
+    "precio": 155,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79128.jpg",
+    "thumb": "assets/img/productos/thumb/G79128.jpg"
+  },
+  {
+    "sku": "G79129",
+    "nombre": "Dije Torre Eiffel Mini",
+    "slug": "dije-torre-eiffel-mini-g79129",
+    "precio": 116,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79129.jpg",
+    "thumb": "assets/img/productos/thumb/G79129.jpg"
+  },
+  {
+    "sku": "G79130",
+    "nombre": "Dije Charm Concha y Estrella",
+    "slug": "dije-charm-concha-y-estrella-g79130",
+    "precio": 155,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79130.jpg",
+    "thumb": "assets/img/productos/thumb/G79130.jpg"
+  },
+  {
+    "sku": "G79131",
+    "nombre": "Dije Charm Castillo",
+    "slug": "dije-charm-castillo-g79131",
+    "precio": 155,
+    "categoria": "Dijes",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/G79131.jpg",
+    "thumb": "assets/img/productos/thumb/G79131.jpg"
+  },
+  {
+    "sku": "GAJ15718",
+    "nombre": "Pulsera Eslabón Fino Doble",
+    "slug": "pulsera-eslabon-fino-doble-gaj15718",
+    "precio": 597,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "18 cm"
+    ],
+    "img": "assets/img/productos/GAJ15718.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ15718.jpg"
+  },
+  {
+    "sku": "GAJ22018",
+    "nombre": "Pulsera Doble Cadena Barbada",
+    "slug": "pulsera-doble-cadena-barbada-gaj22018",
+    "precio": 506,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "18 cm"
+    ],
+    "img": "assets/img/productos/GAJ22018.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ22018.jpg"
+  },
+  {
+    "sku": "GC086543",
+    "nombre": "Pulsera Eslabón Rectangular",
+    "slug": "pulsera-eslabon-rectangular-gc086543",
+    "precio": 77,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 mm",
+      "18.5 cm"
+    ],
+    "img": "assets/img/productos/GC086543.jpg",
+    "thumb": "assets/img/productos/thumb/GC086543.jpg"
+  },
+  {
+    "sku": "GC086544",
+    "nombre": "Pulsera Eslabón Rectangular Ancho",
+    "slug": "pulsera-eslabon-rectangular-ancho-gc086544",
+    "precio": 90,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "18.5 cm"
+    ],
+    "img": "assets/img/productos/GC086544.jpg",
+    "thumb": "assets/img/productos/thumb/GC086544.jpg"
+  },
+  {
+    "sku": "GC086545",
+    "nombre": "Pulsera Eslabón Rectangular Fino",
+    "slug": "pulsera-eslabon-rectangular-fino-gc086545",
+    "precio": 77,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 mm",
+      "18 cm"
+    ],
+    "img": "assets/img/productos/GC086545.jpg",
+    "thumb": "assets/img/productos/thumb/GC086545.jpg"
+  },
+  {
+    "sku": "GP488",
+    "nombre": "Pulsera Balines Oro",
+    "slug": "pulsera-balines-oro-gp488",
+    "precio": 207,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GP488.jpg",
+    "thumb": "assets/img/productos/thumb/GP488.jpg"
+  },
+  {
+    "sku": "GP489",
+    "nombre": "Pulsera Balines Mixtos",
+    "slug": "pulsera-balines-mixtos-gp489",
+    "precio": 207,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GP489.jpg",
+    "thumb": "assets/img/productos/thumb/GP489.jpg"
+  },
+  {
+    "sku": "GP490",
+    "nombre": "Pulsera Balines Finos",
+    "slug": "pulsera-balines-finos-gp490",
+    "precio": 259,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GP490.jpg",
+    "thumb": "assets/img/productos/thumb/GP490.jpg"
+  },
+  {
+    "sku": "GP491",
+    "nombre": "Pulsera Balines Plata",
+    "slug": "pulsera-balines-plata-gp491",
+    "precio": 259,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GP491.jpg",
+    "thumb": "assets/img/productos/thumb/GP491.jpg"
+  },
+  {
+    "sku": "GP492",
+    "nombre": "Pulsera Balines Medianos",
+    "slug": "pulsera-balines-medianos-gp492",
+    "precio": 181,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GP492.jpg",
+    "thumb": "assets/img/productos/thumb/GP492.jpg"
+  },
+  {
+    "sku": "GP496",
+    "nombre": "Pulsera Balines con Corazón",
+    "slug": "pulsera-balines-con-corazon-gp496",
+    "precio": 246,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GP496.jpg",
+    "thumb": "assets/img/productos/thumb/GP496.jpg"
+  },
+  {
+    "sku": "GP497",
+    "nombre": "Pulsera Balines Plata Mixtos",
+    "slug": "pulsera-balines-plata-mixtos-gp497",
+    "precio": 207,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GP497.jpg",
+    "thumb": "assets/img/productos/thumb/GP497.jpg"
+  },
+  {
+    "sku": "GP499",
+    "nombre": "Pulsera Balines Plata con Corazón",
+    "slug": "pulsera-balines-plata-con-corazon-gp499",
+    "precio": 246,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GP499.jpg",
+    "thumb": "assets/img/productos/thumb/GP499.jpg"
+  },
+  {
+    "sku": "GR2618",
+    "nombre": "Pulsera Zirconias Negras",
+    "slug": "pulsera-zirconias-negras-gr2618",
+    "precio": 194,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GR2618.jpg",
+    "thumb": "assets/img/productos/thumb/GR2618.jpg"
+  },
+  {
+    "sku": "GS03705",
+    "nombre": "Pulsera Ajustable Cruz Pavé",
+    "slug": "pulsera-ajustable-cruz-pave-gs03705",
+    "precio": 402,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03705.jpg",
+    "thumb": "assets/img/productos/thumb/GS03705.jpg"
+  },
+  {
+    "sku": "GS03707",
+    "nombre": "Pulsera Eslabón Cubano Pavé",
+    "slug": "pulsera-eslabon-cubano-pave-gs03707",
+    "precio": 480,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03707.jpg",
+    "thumb": "assets/img/productos/thumb/GS03707.jpg"
+  },
+  {
+    "sku": "GS03711",
+    "nombre": "Pulsera Eslabón con Zirconias",
+    "slug": "pulsera-eslabon-con-zirconias-gs03711",
+    "precio": 480,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03711.jpg",
+    "thumb": "assets/img/productos/thumb/GS03711.jpg"
+  },
+  {
+    "sku": "GS03744",
+    "nombre": "Pulsera Doble Eslabón Pavé",
+    "slug": "pulsera-doble-eslabon-pave-gs03744",
+    "precio": 519,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03744.jpg",
+    "thumb": "assets/img/productos/thumb/GS03744.jpg"
+  },
+  {
+    "sku": "GS03747",
+    "nombre": "Pulsera Infinito",
+    "slug": "pulsera-infinito-gs03747",
+    "precio": 480,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03747.jpg",
+    "thumb": "assets/img/productos/thumb/GS03747.jpg"
+  },
+  {
+    "sku": "GS03756",
+    "nombre": "Pulsera Cuentas Negras con Cruz",
+    "slug": "pulsera-cuentas-negras-con-cruz-gs03756",
+    "precio": 337,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03756.jpg",
+    "thumb": "assets/img/productos/thumb/GS03756.jpg"
+  },
+  {
+    "sku": "GS037571",
+    "nombre": "Pulsera Roja Niño y Niña",
+    "slug": "pulsera-roja-nino-y-nina-gs037571",
+    "precio": 376,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS037571.jpg",
+    "thumb": "assets/img/productos/thumb/GS037571.jpg"
+  },
+  {
+    "sku": "GS03759",
+    "nombre": "Pulsera Cruz y Corazón",
+    "slug": "pulsera-cruz-y-corazon-gs03759",
+    "precio": 376,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03759.jpg",
+    "thumb": "assets/img/productos/thumb/GS03759.jpg"
+  },
+  {
+    "sku": "GS03760",
+    "nombre": "Pulsera Charms Cruz y Corazón",
+    "slug": "pulsera-charms-cruz-y-corazon-gs03760",
+    "precio": 376,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03760.jpg",
+    "thumb": "assets/img/productos/thumb/GS03760.jpg"
+  },
+  {
+    "sku": "GS03764",
+    "nombre": "Pulsera Bicolor con Balines",
+    "slug": "pulsera-bicolor-con-balines-gs03764",
+    "precio": 220,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03764.jpg",
+    "thumb": "assets/img/productos/thumb/GS03764.jpg"
+  },
+  {
+    "sku": "GS037651",
+    "nombre": "Pulsera Eslabón Hueso",
+    "slug": "pulsera-eslabon-hueso-gs037651",
+    "precio": 220,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS037651.jpg",
+    "thumb": "assets/img/productos/thumb/GS037651.jpg"
+  },
+  {
+    "sku": "GS03771",
+    "nombre": "Pulsera Charms Rojos y Corazón",
+    "slug": "pulsera-charms-rojos-y-corazon-gs03771",
+    "precio": 480,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03771.jpg",
+    "thumb": "assets/img/productos/thumb/GS03771.jpg"
+  },
+  {
+    "sku": "GS03773",
+    "nombre": "Pulsera Charms Corazón Cristal",
+    "slug": "pulsera-charms-corazon-cristal-gs03773",
+    "precio": 480,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03773.jpg",
+    "thumb": "assets/img/productos/thumb/GS03773.jpg"
+  },
+  {
+    "sku": "GS03786",
+    "nombre": "Pulsera Ajustable Tricolor",
+    "slug": "pulsera-ajustable-tricolor-gs03786",
+    "precio": 220,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03786.jpg",
+    "thumb": "assets/img/productos/thumb/GS03786.jpg"
+  },
+  {
+    "sku": "GS037881",
+    "nombre": "Pulsera Cordón con Escapulario",
+    "slug": "pulsera-cordon-con-escapulario-gs037881",
+    "precio": 337,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS037881.jpg",
+    "thumb": "assets/img/productos/thumb/GS037881.jpg"
+  },
+  {
+    "sku": "GS03825",
+    "nombre": "Pulsera Ajustable Trébol Negro",
+    "slug": "pulsera-ajustable-trebol-negro-gs03825",
+    "precio": 337,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03825.jpg",
+    "thumb": "assets/img/productos/thumb/GS03825.jpg"
+  },
+  {
+    "sku": "GS03857",
+    "nombre": "Pulsera Eslabón Mariner Pavé",
+    "slug": "pulsera-eslabon-mariner-pave-gs03857",
+    "precio": 1026,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03857.jpg",
+    "thumb": "assets/img/productos/thumb/GS03857.jpg"
+  },
+  {
+    "sku": "GS03860",
+    "nombre": "Pulsera Ancha Pavé",
+    "slug": "pulsera-ancha-pave-gs03860",
+    "precio": 857,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03860.jpg",
+    "thumb": "assets/img/productos/thumb/GS03860.jpg"
+  },
+  {
+    "sku": "GS03863",
+    "nombre": "Pulsera Rígida Infinito",
+    "slug": "pulsera-rigida-infinito-gs03863",
+    "precio": 857,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03863.jpg",
+    "thumb": "assets/img/productos/thumb/GS03863.jpg"
+  },
+  {
+    "sku": "GS03879",
+    "nombre": "Pulsera Roja Cruz y Corazón",
+    "slug": "pulsera-roja-cruz-y-corazon-gs03879",
+    "precio": 337,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03879.jpg",
+    "thumb": "assets/img/productos/thumb/GS03879.jpg"
+  },
+  {
+    "sku": "GS03885",
+    "nombre": "Pulsera Roja Corazón",
+    "slug": "pulsera-roja-corazon-gs03885",
+    "precio": 259,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03885.jpg",
+    "thumb": "assets/img/productos/thumb/GS03885.jpg"
+  },
+  {
+    "sku": "GS03931",
+    "nombre": "Pulsera Eslabón Oval Pavé",
+    "slug": "pulsera-eslabon-oval-pave-gs03931",
+    "precio": 662,
+    "categoria": "Pulseras",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03931.jpg",
+    "thumb": "assets/img/productos/thumb/GS03931.jpg"
+  },
+  {
+    "sku": "GAJ90802",
+    "nombre": "Misterio Tricolor Virgen",
+    "slug": "misterio-tricolor-virgen-gaj90802",
+    "precio": 272,
+    "categoria": "Misterios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "19 cm"
+    ],
+    "img": "assets/img/productos/GAJ90802.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ90802.jpg"
+  },
+  {
+    "sku": "GAJ908021",
+    "nombre": "Misterio Tricolor Cruz",
+    "slug": "misterio-tricolor-cruz-gaj908021",
+    "precio": 259,
+    "categoria": "Misterios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 mm",
+      "19 cm"
+    ],
+    "img": "assets/img/productos/GAJ908021.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ908021.jpg"
+  },
+  {
+    "sku": "GAJ9RS162",
+    "nombre": "Misterio Balines Tricolor",
+    "slug": "misterio-balines-tricolor-gaj9rs162",
+    "precio": 272,
+    "categoria": "Misterios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 mm",
+      "19 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS162.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS162.jpg"
+  },
+  {
+    "sku": "GAJ9RS183",
+    "nombre": "Misterio Balines Oro",
+    "slug": "misterio-balines-oro-gaj9rs183",
+    "precio": 220,
+    "categoria": "Misterios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "5 mm",
+      "19 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS183.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS183.jpg"
+  },
+  {
+    "sku": "GAJ9RS352",
+    "nombre": "Misterio Negro",
+    "slug": "misterio-negro-gaj9rs352",
+    "precio": 220,
+    "categoria": "Misterios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "19 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS352.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS352.jpg"
+  },
+  {
+    "sku": "GAJ9RS355",
+    "nombre": "Misterio Balines Tricolor Fino",
+    "slug": "misterio-balines-tricolor-fino-gaj9rs355",
+    "precio": 220,
+    "categoria": "Misterios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 mm",
+      "19 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS355.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS355.jpg"
+  },
+  {
+    "sku": "GAJ9RS373",
+    "nombre": "Misterio Balines Diamantados",
+    "slug": "misterio-balines-diamantados-gaj9rs373",
+    "precio": 207,
+    "categoria": "Misterios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "19 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS373.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS373.jpg"
+  },
+  {
+    "sku": "GAJ9RS58",
+    "nombre": "Misterio Balines Oro Fino",
+    "slug": "misterio-balines-oro-fino-gaj9rs58",
+    "precio": 207,
+    "categoria": "Misterios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "19 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS58.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS58.jpg"
+  },
+  {
+    "sku": "GAJ9RS75",
+    "nombre": "Misterio Negro Diamantado",
+    "slug": "misterio-negro-diamantado-gaj9rs75",
+    "precio": 220,
+    "categoria": "Misterios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "19 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS75.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS75.jpg"
+  },
+  {
+    "sku": "GAJ9RS107",
+    "nombre": "Rosario Negro",
+    "slug": "rosario-negro-gaj9rs107",
+    "precio": 389,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "5 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS107.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS107.jpg"
+  },
+  {
+    "sku": "GAJ9RS148",
+    "nombre": "Rosario Tricolor",
+    "slug": "rosario-tricolor-gaj9rs148",
+    "precio": 350,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS148.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS148.jpg"
+  },
+  {
+    "sku": "GAJ9RS21",
+    "nombre": "Rosario Fino Tricolor",
+    "slug": "rosario-fino-tricolor-gaj9rs21",
+    "precio": 532,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS21.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS21.jpg"
+  },
+  {
+    "sku": "GAJ9RS237",
+    "nombre": "Rosario Balines Oro",
+    "slug": "rosario-balines-oro-gaj9rs237",
+    "precio": 467,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "3 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS237.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS237.jpg"
+  },
+  {
+    "sku": "GAJ9RS28",
+    "nombre": "Rosario Tricolor Largo",
+    "slug": "rosario-tricolor-largo-gaj9rs28",
+    "precio": 597,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS28.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS28.jpg"
+  },
+  {
+    "sku": "GAJ9RS294",
+    "nombre": "Rosario Balines Mixtos",
+    "slug": "rosario-balines-mixtos-gaj9rs294",
+    "precio": 636,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS294.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS294.jpg"
+  },
+  {
+    "sku": "GAJ9RS34",
+    "nombre": "Rosario Tricolor Diamantado",
+    "slug": "rosario-tricolor-diamantado-gaj9rs34",
+    "precio": 493,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS34.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS34.jpg"
+  },
+  {
+    "sku": "GAJ9RS35",
+    "nombre": "Rosario Negro Largo",
+    "slug": "rosario-negro-largo-gaj9rs35",
+    "precio": 337,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS35.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS35.jpg"
+  },
+  {
+    "sku": "GAJ9RS383",
+    "nombre": "Rosario Balines Diamantados",
+    "slug": "rosario-balines-diamantados-gaj9rs383",
+    "precio": 467,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS383.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS383.jpg"
+  },
+  {
+    "sku": "GAJ9RS62",
+    "nombre": "Rosario Tricolor Balines",
+    "slug": "rosario-tricolor-balines-gaj9rs62",
+    "precio": 467,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "6 mm",
+      "70 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS62.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS62.jpg"
+  },
+  {
+    "sku": "GAJ9RS751",
+    "nombre": "Rosario Negro Cristal",
+    "slug": "rosario-negro-cristal-gaj9rs751",
+    "precio": 337,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "60 cm"
+    ],
+    "img": "assets/img/productos/GAJ9RS751.jpg",
+    "thumb": "assets/img/productos/thumb/GAJ9RS751.jpg"
+  },
+  {
+    "sku": "GC08170",
+    "nombre": "Rosario Oro Diamantado",
+    "slug": "rosario-oro-diamantado-gc08170",
+    "precio": 369,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "55 cm"
+    ],
+    "img": "assets/img/productos/GC08170.jpg",
+    "thumb": "assets/img/productos/thumb/GC08170.jpg"
+  },
+  {
+    "sku": "GC08171",
+    "nombre": "Rosario Tricolor Facetado",
+    "slug": "rosario-tricolor-facetado-gc08171",
+    "precio": 398,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "55 cm"
+    ],
+    "img": "assets/img/productos/GC08171.jpg",
+    "thumb": "assets/img/productos/thumb/GC08171.jpg"
+  },
+  {
+    "sku": "GC08172",
+    "nombre": "Rosario Oro Balines",
+    "slug": "rosario-oro-balines-gc08172",
+    "precio": 415,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "5 mm",
+      "55 cm"
+    ],
+    "img": "assets/img/productos/GC08172.jpg",
+    "thumb": "assets/img/productos/thumb/GC08172.jpg"
+  },
+  {
+    "sku": "GC08173",
+    "nombre": "Rosario Tricolor Crucifijo",
+    "slug": "rosario-tricolor-crucifijo-gc08173",
+    "precio": 441,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "5 mm",
+      "55 cm"
+    ],
+    "img": "assets/img/productos/GC08173.jpg",
+    "thumb": "assets/img/productos/thumb/GC08173.jpg"
+  },
+  {
+    "sku": "GC08174",
+    "nombre": "Rosario Oro Crucifijo",
+    "slug": "rosario-oro-crucifijo-gc08174",
+    "precio": 376,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "55 cm"
+    ],
+    "img": "assets/img/productos/GC08174.jpg",
+    "thumb": "assets/img/productos/thumb/GC08174.jpg"
+  },
+  {
+    "sku": "GC08175",
+    "nombre": "Rosario Tricolor Fino",
+    "slug": "rosario-tricolor-fino-gc08175",
+    "precio": 402,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "4 mm",
+      "55 cm"
+    ],
+    "img": "assets/img/productos/GC08175.jpg",
+    "thumb": "assets/img/productos/thumb/GC08175.jpg"
+  },
+  {
+    "sku": "GC08176",
+    "nombre": "Rosario Oro San Benito",
+    "slug": "rosario-oro-san-benito-gc08176",
+    "precio": 415,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "5 mm",
+      "55 cm"
+    ],
+    "img": "assets/img/productos/GC08176.jpg",
+    "thumb": "assets/img/productos/thumb/GC08176.jpg"
+  },
+  {
+    "sku": "GC08177",
+    "nombre": "Rosario Tricolor San Benito",
+    "slug": "rosario-tricolor-san-benito-gc08177",
+    "precio": 441,
+    "categoria": "Rosarios",
+    "material": "Chapa de oro",
+    "medidas": [
+      "5 mm",
+      "55 cm"
+    ],
+    "img": "assets/img/productos/GC08177.jpg",
+    "thumb": "assets/img/productos/thumb/GC08177.jpg"
+  },
+  {
+    "sku": "GS03005",
+    "nombre": "Juego Cadena y Pulsera Mariner",
+    "slug": "juego-cadena-y-pulsera-mariner-gs03005",
+    "precio": 909,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03005.jpg",
+    "thumb": "assets/img/productos/thumb/GS03005.jpg"
+  },
+  {
+    "sku": "GS030061",
+    "nombre": "Juego Cadena y Pulsera Eslabón",
+    "slug": "juego-cadena-y-pulsera-eslabon-gs030061",
+    "precio": 766,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS030061.jpg",
+    "thumb": "assets/img/productos/thumb/GS030061.jpg"
+  },
+  {
+    "sku": "GS03008",
+    "nombre": "Juego Cadena y Pulsera Figaro",
+    "slug": "juego-cadena-y-pulsera-figaro-gs03008",
+    "precio": 753,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03008.jpg",
+    "thumb": "assets/img/productos/thumb/GS03008.jpg"
+  },
+  {
+    "sku": "GS03018",
+    "nombre": "Juego Collar y Aretes Perla",
+    "slug": "juego-collar-y-aretes-perla-gs03018",
+    "precio": 402,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03018.jpg",
+    "thumb": "assets/img/productos/thumb/GS03018.jpg"
+  },
+  {
+    "sku": "GS03020",
+    "nombre": "Juego Collar y Aretes Cristal",
+    "slug": "juego-collar-y-aretes-cristal-gs03020",
+    "precio": 402,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03020.jpg",
+    "thumb": "assets/img/productos/thumb/GS03020.jpg"
+  },
+  {
+    "sku": "GS03021",
+    "nombre": "Juego Collar y Aretes Rojo",
+    "slug": "juego-collar-y-aretes-rojo-gs03021",
+    "precio": 402,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03021.jpg",
+    "thumb": "assets/img/productos/thumb/GS03021.jpg"
+  },
+  {
+    "sku": "GS03022",
+    "nombre": "Juego Collar y Aretes Azul",
+    "slug": "juego-collar-y-aretes-azul-gs03022",
+    "precio": 402,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03022.jpg",
+    "thumb": "assets/img/productos/thumb/GS03022.jpg"
+  },
+  {
+    "sku": "GS03026",
+    "nombre": "Juego Collar y Aretes Corazón Rojo",
+    "slug": "juego-collar-y-aretes-corazon-rojo-gs03026",
+    "precio": 402,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03026.jpg",
+    "thumb": "assets/img/productos/thumb/GS03026.jpg"
+  },
+  {
+    "sku": "GS03027",
+    "nombre": "Juego Collar y Aretes Flor con Perla",
+    "slug": "juego-collar-y-aretes-flor-con-perla-gs03027",
+    "precio": 402,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03027.jpg",
+    "thumb": "assets/img/productos/thumb/GS03027.jpg"
+  },
+  {
+    "sku": "GS03031",
+    "nombre": "Juego Collar y Aretes Verde",
+    "slug": "juego-collar-y-aretes-verde-gs03031",
+    "precio": 402,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03031.jpg",
+    "thumb": "assets/img/productos/thumb/GS03031.jpg"
+  },
+  {
+    "sku": "GS03036",
+    "nombre": "Juego Collar y Aretes Flores Perla",
+    "slug": "juego-collar-y-aretes-flores-perla-gs03036",
+    "precio": 402,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03036.jpg",
+    "thumb": "assets/img/productos/thumb/GS03036.jpg"
+  },
+  {
+    "sku": "GS03037",
+    "nombre": "Juego Collar y Aretes Flor Rosa",
+    "slug": "juego-collar-y-aretes-flor-rosa-gs03037",
+    "precio": 480,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03037.jpg",
+    "thumb": "assets/img/productos/thumb/GS03037.jpg"
+  },
+  {
+    "sku": "GS03040",
+    "nombre": "Juego Collar y Aretes Niños",
+    "slug": "juego-collar-y-aretes-ninos-gs03040",
+    "precio": 337,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03040.jpg",
+    "thumb": "assets/img/productos/thumb/GS03040.jpg"
+  },
+  {
+    "sku": "GS03043",
+    "nombre": "Juego Collar y Aretes Flor Pavé",
+    "slug": "juego-collar-y-aretes-flor-pave-gs03043",
+    "precio": 480,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03043.jpg",
+    "thumb": "assets/img/productos/thumb/GS03043.jpg"
+  },
+  {
+    "sku": "GS03046",
+    "nombre": "Juego Collar y Aretes Flor Blanca",
+    "slug": "juego-collar-y-aretes-flor-blanca-gs03046",
+    "precio": 337,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03046.jpg",
+    "thumb": "assets/img/productos/thumb/GS03046.jpg"
+  },
+  {
+    "sku": "GS03572",
+    "nombre": "Juego Collar y Aretes Cuarzo",
+    "slug": "juego-collar-y-aretes-cuarzo-gs03572",
+    "precio": 597,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03572.jpg",
+    "thumb": "assets/img/productos/thumb/GS03572.jpg"
+  },
+  {
+    "sku": "GS03573",
+    "nombre": "Juego Collar y Aretes Ámbar",
+    "slug": "juego-collar-y-aretes-ambar-gs03573",
+    "precio": 597,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03573.jpg",
+    "thumb": "assets/img/productos/thumb/GS03573.jpg"
+  },
+  {
+    "sku": "GS03575",
+    "nombre": "Juego Collar y Aretes Coral",
+    "slug": "juego-collar-y-aretes-coral-gs03575",
+    "precio": 558,
+    "categoria": "Juegos",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03575.jpg",
+    "thumb": "assets/img/productos/thumb/GS03575.jpg"
+  },
+  {
+    "sku": "GS03465",
+    "nombre": "Grapa Oval Azul",
+    "slug": "grapa-oval-azul-gs03465",
+    "precio": 298,
+    "categoria": "Grapas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03465.jpg",
+    "thumb": "assets/img/productos/thumb/GS03465.jpg"
+  },
+  {
+    "sku": "GS03469",
+    "nombre": "Grapa Oval Cristal",
+    "slug": "grapa-oval-cristal-gs03469",
+    "precio": 298,
+    "categoria": "Grapas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03469.jpg",
+    "thumb": "assets/img/productos/thumb/GS03469.jpg"
+  },
+  {
+    "sku": "GS03471",
+    "nombre": "Grapa Oval Roja",
+    "slug": "grapa-oval-roja-gs03471",
+    "precio": 298,
+    "categoria": "Grapas",
+    "material": "Chapa de oro",
+    "medidas": [],
+    "img": "assets/img/productos/GS03471.jpg",
+    "thumb": "assets/img/productos/thumb/GS03471.jpg"
+  }
+]
