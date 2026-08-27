@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+
+# Recursos que no aportan a la búsqueda
+Disallow: /herramientas/
+
+Sitemap: https://kinvitalgroup.com/joyeria-valenne/sitemap.xml

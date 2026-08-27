@@ -18,6 +18,19 @@ const CONFIG = {
 CONFIG.instagram = `https://www.instagram.com/${CONFIG.usuarioInstagram}/`;
 
 /* ---------------------------------------------------------
+   Raíz del sitio
+   Se deduce del src de este mismo script, para que las fichas
+   de producto (que viven en /producto/) resuelvan bien las rutas.
+   --------------------------------------------------------- */
+const RAIZ = (() => {
+  const src = document.currentScript && document.currentScript.src;
+  if (!src) return '';
+  return new URL(src).pathname.replace(/assets\/js\/tienda\.js.*$/, '');
+})();
+/** Antepone la raíz del sitio a una ruta relativa del proyecto. */
+const ruta = r => (r && !/^(https?:|\/\/|data:)/.test(r) ? RAIZ + r.replace(/^\.?\//, '') : r);
+
+/* ---------------------------------------------------------
    Utilidades
    --------------------------------------------------------- */
 const $  = (sel, ctx = document) => ctx.querySelector(sel);
@@ -86,6 +99,22 @@ const Carrito = {
     this.guardar();
   },
 
+  /** Refresca nombre, precio e imagen desde el catálogo vigente.
+   *  Una bolsa guardada hace semanas puede traer precios viejos o rutas
+   *  de imagen que ya no existen; esto la pone al día y descarta lo que
+   *  se dio de baja. */
+  sincroniza(porSku) {
+    const antes = this.articulos.length;
+    this.articulos = this.articulos
+      .filter(a => porSku[a.sku])
+      .map(a => {
+        const p = porSku[a.sku];
+        return { ...a, nombre: p.nombre, precio: p.precio,
+                 thumb: p.thumb, material: p.material };
+      });
+    if (antes !== this.articulos.length || antes) this.guardar();
+  },
+
   get total()  { return this.articulos.reduce((s, a) => s + a.precio * a.cantidad, 0); },
   get piezas() { return this.articulos.reduce((s, a) => s + a.cantidad, 0); },
 
@@ -104,12 +133,12 @@ const Carrito = {
         <div class="panel__vacio">
           ${ICONO.bolsa}
           <p>Tu bolsa está vacía.</p>
-          <a class="btn btn--linea" href="catalogo.html">Ver catálogo</a>
+          <a class="btn btn--linea" href="${ruta('catalogo.html')}">Ver catálogo</a>
         </div>`;
     } else {
       lista.innerHTML = this.articulos.map(a => `
         <article class="linea">
-          <img src="${escapaHTML(a.thumb)}" alt="${escapaHTML(a.nombre)}" loading="lazy" width="74" height="74">
+          <img src="${escapaHTML(ruta(a.thumb))}" alt="${escapaHTML(a.nombre)}" loading="lazy" width="74" height="74">
           <div class="linea__info">
             <h3>${escapaHTML(a.nombre)}</h3>
             <div class="linea__sku">${escapaHTML(a.sku)} · ${escapaHTML(a.material)}</div>
@@ -189,19 +218,26 @@ const Cine = {
     if (!menosMovimiento) this.parallax();
   },
 
-  /** Levanta la cortina de apertura una vez cargada la página. */
+  /** Levanta la cortina de apertura.
+   *  Solo se ve una vez por sesión y dura poco: mientras está puesta
+   *  tapa el contenido, y eso empeora el LCP que mide Google. */
   cortina() {
     const c = $('#cortina');
     if (!c) return;
-    if (menosMovimiento) { c.remove(); return; }
+
+    let yaVista = false;
+    try { yaVista = sessionStorage.getItem('valenne-intro') === '1'; } catch {}
+    if (menosMovimiento || yaVista) { c.remove(); return; }
+    try { sessionStorage.setItem('valenne-intro', '1'); } catch {}
+
     const cerrar = () => {
       c.classList.add('se-va');
-      setTimeout(() => c.remove(), 950);
+      setTimeout(() => c.remove(), 560);
     };
-    if (document.readyState === 'complete') setTimeout(cerrar, 900);
-    else window.addEventListener('load', () => setTimeout(cerrar, 900), { once: true });
+    if (document.readyState === 'complete') setTimeout(cerrar, 260);
+    else window.addEventListener('load', () => setTimeout(cerrar, 260), { once: true });
     // salvavidas: nunca dejar la cortina puesta
-    setTimeout(cerrar, 3800);
+    setTimeout(cerrar, 2200);
   },
 
   /** Compacta el encabezado al desplazar. */
@@ -300,11 +336,13 @@ function tarjetaProducto(p) {
       <button class="producto__img" type="button" data-ver="${escapaHTML(p.sku)}"
               aria-label="Ver detalle de ${escapaHTML(p.nombre)}">
         ${etiqueta}
-        <img src="${escapaHTML(p.thumb)}" alt="${escapaHTML(p.nombre)}" loading="lazy" width="420" height="420">
+        <img src="${escapaHTML(ruta(p.thumb))}" alt="${escapaHTML(p.nombre)}" loading="lazy" width="420" height="420">
       </button>
       <div class="producto__cuerpo">
         <div class="producto__meta">${escapaHTML(p.material)}</div>
-        <h3 class="producto__nombre">${escapaHTML(p.nombre)}</h3>
+        <h3 class="producto__nombre">
+          <a href="${ruta('producto/' + p.slug + '.html')}">${escapaHTML(p.nombre)}</a>
+        </h3>
         ${medidas}
         <div class="producto__pie">
           <div class="producto__precio">${formateaPrecio(p.precio)}<span> ${CONFIG.moneda}</span></div>
@@ -327,7 +365,7 @@ function abreDetalle(p) {
   $('#ventana-cuerpo').innerHTML = `
     <button class="ventana__cerrar" type="button" data-cerrar-ventana aria-label="Cerrar">${ICONO.cerrar}</button>
     <div class="ventana__img">
-      <img src="${escapaHTML(p.img)}" alt="${escapaHTML(p.nombre)}" width="800" height="800">
+      <img src="${escapaHTML(ruta(p.img))}" alt="${escapaHTML(p.nombre)}" width="800" height="800">
     </div>
     <div class="ventana__info">
       <p class="eyebrow">${escapaHTML(p.categoria)}</p>
@@ -343,6 +381,7 @@ function abreDetalle(p) {
         <button class="btn btn--oro btn--bloque" type="button" data-agregar="${escapaHTML(p.sku)}">
           ${ICONO.bolsa} Agregar a la bolsa
         </button>
+        <a class="btn btn--linea btn--bloque" href="${ruta('producto/' + p.slug + '.html')}">Ver ficha completa</a>
         <a class="btn btn--wa btn--bloque" target="_blank" rel="noopener"
            href="https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(
              `¡Hola Valenne! Me interesa "${p.nombre}" (${p.sku}) — ${formateaPrecio(p.precio)}. ¿Está disponible?`)}">
@@ -408,7 +447,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   /* ---------- catálogo ---------- */
   let PRODUCTOS = [];
   try {
-    const r = await fetch('assets/data/productos.json');
+    const r = await fetch(ruta('assets/data/productos.json'));
     if (!r.ok) throw new Error(r.status);
     PRODUCTOS = await r.json();
   } catch (err) {
@@ -421,6 +460,7 @@ document.addEventListener('DOMContentLoaded', async () => {
   }
 
   const porSku = Object.fromEntries(PRODUCTOS.map(p => [p.sku, p]));
+  Carrito.sincroniza(porSku);
 
   /* Mantiene los precios vigentes incluso en bolsas guardadas antes de una actualización. */
   let bolsaActualizada = false;
@@ -500,9 +540,9 @@ document.addEventListener('DOMContentLoaded', async () => {
       const p = porSku[sku] || PRODUCTOS.find(x => x.categoria === cat);
       if (!p) return '';
       return `
-        <a class="categoria" href="catalogo.html?categoria=${encodeURIComponent(cat)}">
+        <a class="categoria" href="${ruta('catalogo.html')}?categoria=${encodeURIComponent(cat)}">
           <div class="categoria__img">
-            <img src="${escapaHTML(p.thumb)}" alt="${escapaHTML(cat)}" loading="lazy" width="420" height="420">
+            <img src="${escapaHTML(ruta(p.thumb))}" alt="${escapaHTML(cat)}" loading="lazy" width="420" height="420">
           </div>
           <div class="categoria__pie">
             <h3>${escapaHTML(cat)}</h3>
