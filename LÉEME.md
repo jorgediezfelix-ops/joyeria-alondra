@@ -46,16 +46,25 @@ Y abre <http://localhost:8123>.
 Joyeria/
 ├── index.html              Portada
 ├── catalogo.html           Catálogo con filtros y buscador
+├── 404.html                Página de error
+├── robots.txt              ┐ generados por herramientas/generar-seo.py
+├── sitemap.xml             ┘ (no editar a mano)
+├── producto/               311 fichas, una por pieza · generadas
+├── herramientas/
+│   └── generar-seo.py      Regenera fichas, sitemap y robots
 └── assets/
     ├── css/estilos.css     Todo el diseño
     ├── js/tienda.js        Catálogo, carrito, animaciones · CONFIG arriba
-    ├── data/productos.json Los 311 productos
+    ├── data/productos.json Los 311 productos — la única fuente de datos
     └── img/
         ├── logo.svg
-        ├── instagram-pulseras.jpg
+        ├── instagram-pulseras.webp
+        ├── instagram/      6 fotos de campaña
         ├── cine/           Piezas recortadas sin fondo (3 en uso + 3 de repuesto)
-        └── productos/      311 fotos (800 px) + thumb/ (420 px)
+        └── productos/      311 fotos (800 px) + thumb/ (420 px), todas WebP
 ```
+
+Todas las imágenes son **WebP**. Los assets pesan 7.8 MB (antes 19 MB en JPEG/PNG).
 
 ---
 
@@ -86,11 +95,19 @@ Joyeria/
 
 ### Agregar o cambiar piezas
 
-1. Pon la foto en `assets/img/productos/SKU.jpg` (cuadrada, 800×800) y una
-   copia de 420×420 en `assets/img/productos/thumb/SKU.jpg`.
-2. Agrega el objeto al JSON. Los filtros y contadores se recalculan solos —
-   si inventas una categoría nueva, añádela a `ordenCat` en `tienda.js`
-   para fijar su posición en la lista de filtros.
+1. Pon la foto en `assets/img/productos/SKU.webp` (cuadrada, 800×800) y una
+   copia de 420×420 en `assets/img/productos/thumb/SKU.webp`.
+2. Agrega el objeto a `assets/data/productos.json`.
+3. **Vuelve a generar el SEO** — si no, la pieza no tendrá ficha ni saldrá
+   en el sitemap:
+
+```bash
+cd ~/Desktop/Joyeria && python3 herramientas/generar-seo.py
+```
+
+Los filtros y contadores del catálogo se recalculan solos. Si inventas una
+categoría nueva, añádela a `ordenCat` en `tienda.js` y a `CATEGORIAS` en
+`herramientas/generar-seo.py`.
 
 ### Precios por revisar
 
@@ -123,6 +140,72 @@ del bloque `.escenario` en `index.html`.
 titular animado, piezas flotantes con parallax al mover el ratón, cinta deslizante y
 revelados al desplazar. Todo se desactiva solo si el sistema pide
 `prefers-reduced-motion`.
+
+---
+
+## SEO
+
+Cada pieza tiene su propia página en `producto/<slug>.html`. Eso es lo que
+permite que Google indexe las 311 joyas por separado en vez de una sola
+página de catálogo.
+
+Cada ficha lleva:
+
+- **Título y descripción únicos** (313 de 313, sin duplicados)
+- **`Product` en JSON-LD** con SKU, precio, moneda, material, marca y
+  disponibilidad — es lo que produce los resultados enriquecidos de Google
+  con precio y foto
+- **`BreadcrumbList`** para la ruta Inicio → Catálogo → Categoría → Pieza
+- **Canónica**, Open Graph y Twitter Card
+- Enlaces internos a su categoría, a su material y a 4 piezas relacionadas
+
+El inicio declara `Organization`, `WebSite` (con buscador), `Store` e
+`ItemList` de categorías. El catálogo declara `CollectionPage` e `ItemList`.
+
+`sitemap.xml` reúne 326 URLs: inicio, catálogo, 11 categorías, 2 materiales
+y las 311 fichas.
+
+### Darlo de alta en Google
+
+1. Entra a [Search Console](https://search.google.com/search-console) y
+   verifica la propiedad del dominio.
+2. En *Sitemaps*, envía `sitemap.xml`.
+3. En *Inspección de URLs*, pide la indexación del inicio y del catálogo.
+
+La indexación completa suele tardar de días a algunas semanas.
+
+### ⚠️ El dominio actual no ayuda
+
+El sitio se sirve desde `kinvitalgroup.com/joyeria-valenne/` porque tu cuenta
+de GitHub ya tenía ese dominio configurado. Para posicionar en Google es una
+desventaja real: el dominio no tiene nada que ver con joyería y la autoridad
+que gane el sitio se reparte con el otro negocio.
+
+Con un dominio propio (`joyeriavalenne.com`) el sitio arrancaría mucho mejor.
+Al cambiarlo hay que actualizar `BASE` en `herramientas/generar-seo.py`,
+volver a generar, y corregir las canónicas de `index.html` y `catalogo.html`.
+
+---
+
+## Velocidad
+
+Medido en local, portada en frío:
+
+| | |
+|---|---|
+| FCP | 264 ms |
+| LCP | 264 ms |
+| CLS | 0 |
+
+Qué se hizo:
+
+- **WebP en todo** — los recortes de la portada pasaron de 1 MB a 160 KB
+- **La cortina de apertura se acortó** y ahora solo aparece una vez por
+  sesión. Antes tapaba el contenido casi 2 segundos y el LCP se iba a
+  2.3 s, que Google marca en rojo
+- **Fuentes de Google sin bloquear el render** (`media="print"` + `onload`)
+- **Scripts diferidos** y `content-visibility` en las secciones de abajo
+- Todas las imágenes con `width`/`height` para que no haya saltos (CLS 0)
 
 ---
 
