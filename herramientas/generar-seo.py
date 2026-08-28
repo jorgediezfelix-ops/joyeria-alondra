@@ -117,7 +117,8 @@ CABEZA = """<!DOCTYPE html>
 <meta name="twitter:description" content="{descripcion}">
 <meta name="twitter:image" content="{imagen}">
 
-<link rel="icon" href="../assets/img/logo.svg" type="image/svg+xml">
+<link rel="icon" href="../assets/img/favicon-32.png" sizes="32x32">
+<link rel="apple-touch-icon" href="../assets/img/favicon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap">
@@ -140,9 +141,10 @@ CABEZA = """<!DOCTYPE html>
 </div>
 
 <header class="encabezado" id="encabezado">
+  <span class="encabezado__filo" aria-hidden="true"></span>
   <div class="contenedor encabezado__fila">
     <a class="marca" href="../index.html" aria-label="{marca} — inicio">
-      <img src="../assets/img/logo.svg" alt="{marca}" width="260" height="96">
+      <img class="marca__texto" src="../assets/img/logo-texto.webp" alt="{marca}" width="560" height="157" fetchpriority="high">
     </a>
     <nav class="nav" id="nav" aria-label="Principal">
       <a href="../index.html">Inicio</a>
@@ -172,7 +174,7 @@ PIE = """
   <div class="contenedor">
     <div class="pie__rejilla">
       <div class="pie__marca">
-        <img src="../assets/img/logo.svg" alt="{marca}" width="260" height="96">
+        <img src="../assets/img/logo.webp" alt="{marca}" width="720" height="710">
         <p>Joyas a tu estilo.<br>Acero inoxidable &amp; chapa de oro.</p>
         <div class="redes">
           <a data-ig target="_blank" rel="noopener" href="#" aria-label="Instagram">
@@ -197,7 +199,7 @@ PIE = """
       </div>
       <div>
         <h3>Contacto</h3>
-        <p>Haz tu pedido por WhatsApp o mensaje directo en Instagram. Te confirmamos existencias y el costo de envío.</p>
+        <p>Haz tu pedido por WhatsApp y te confirmamos existencias y el costo de envío el mismo día.</p>
         <ul>
           <li><a data-wa="¡Hola Alondra! Quiero hacer un pedido." target="_blank" rel="noopener" href="#">Pedidos por WhatsApp</a></li>
           <li><a data-ig target="_blank" rel="noopener" href="#"></a></li>

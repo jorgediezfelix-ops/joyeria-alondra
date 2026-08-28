@@ -34,7 +34,7 @@
   --transicion: 420ms var(--ease);
 
   --ancho: 1320px;
-  --barra: 76px;
+  --barra: 86px;
 }
 
 *,*::before,*::after{ box-sizing:border-box; }
@@ -136,7 +136,7 @@ h1,h2,h3,h4{
   display:grid; place-items:center;
   transition:opacity 520ms var(--ease), visibility 520ms;
 }
-.cortina img{ width:190px; opacity:0; animation:cortinaLogo 620ms var(--ease) forwards; }
+.cortina img{ width:min(212px,44vw); opacity:0; animation:cortinaLogo 620ms var(--ease) forwards; }
 .cortina__linea{
   position:absolute; bottom:16%; left:50%; transform:translateX(-50%);
   width:min(220px, 40vw); height:1px; background:var(--borde-2); overflow:hidden;
@@ -166,41 +166,103 @@ h1,h2,h3,h4{
 
 .encabezado{
   position:sticky; top:0; z-index:100;
-  background:rgba(8,8,10,.72);
-  backdrop-filter:saturate(150%) blur(18px);
-  -webkit-backdrop-filter:saturate(150%) blur(18px);
-  border-bottom:1px solid transparent;
-  transition:background var(--transicion), border-color var(--transicion);
+  background:linear-gradient(180deg, rgba(12,11,13,.88), rgba(8,8,10,.70));
+  backdrop-filter:saturate(160%) blur(20px);
+  -webkit-backdrop-filter:saturate(160%) blur(20px);
+  transition:background var(--transicion), box-shadow var(--transicion);
+  isolation:isolate;
 }
-.encabezado.compacta{ background:rgba(8,8,10,.94); border-bottom-color:var(--borde); }
+/* halo cálido detrás del logotipo, para que la barra no se vea plana */
+.encabezado::before{
+  content:""; position:absolute; inset:0; z-index:-1; pointer-events:none;
+  background:
+    radial-gradient(58% 240% at 10% 50%, rgba(201,162,39,.13), transparent 62%),
+    radial-gradient(42% 200% at 92% 50%, rgba(232,199,118,.07), transparent 66%);
+}
+.encabezado.compacta{
+  background:linear-gradient(180deg, rgba(9,8,10,.97), rgba(8,8,10,.93));
+  box-shadow:0 12px 40px -22px rgba(0,0,0,.95);
+}
+
+/* filo dorado inferior con un destello que lo recorre */
+.encabezado__filo{
+  position:absolute; left:0; right:0; bottom:0; height:1px; overflow:hidden;
+  background:linear-gradient(90deg,
+    transparent, rgba(201,162,39,.42) 18%, rgba(232,199,118,.72) 50%,
+    rgba(201,162,39,.42) 82%, transparent);
+}
+.encabezado__filo::after{
+  content:""; position:absolute; top:0; bottom:0; width:22%;
+  background:linear-gradient(90deg, transparent, #FFF3D0, transparent);
+  animation:filoBarrido 7s var(--ease-suave) infinite;
+}
+@keyframes filoBarrido{
+  0%{ transform:translateX(-120%) } 55%,100%{ transform:translateX(560%) }
+}
+
 .encabezado__fila{ height:var(--barra); display:flex; align-items:center; gap:30px; }
 
-.marca{ display:flex; align-items:center; flex-shrink:0; transition:opacity var(--transicion); }
-.marca:hover{ opacity:.78; }
-.marca img{ height:46px; width:auto; }
+/* En la barra va solo la tipografía del logotipo, a buen tamaño.
+   El emblema completo con el ave se reserva para el pie y la
+   cortina de apertura, donde tiene espacio para lucir. */
+.marca{
+  position:relative; display:flex; align-items:center; flex-shrink:0;
+  transition:transform var(--transicion);
+}
+.marca:hover{ transform:scale(1.02); }
+.marca__texto{
+  height:42px; width:auto;
+  filter:drop-shadow(0 0 14px rgba(201,162,39,.30));
+  transition:filter var(--transicion);
+}
+.marca:hover .marca__texto{ filter:drop-shadow(0 0 22px rgba(232,199,118,.55)); }
 
 .nav{ display:flex; gap:34px; margin-inline:auto; }
 .nav a{
-  font-size:11px; letter-spacing:.24em; text-transform:uppercase;
-  color:var(--texto-2); padding:8px 0; position:relative;
-  transition:color var(--transicion);
+  font-size:11px; letter-spacing:.26em; text-transform:uppercase;
+  color:var(--texto-2); padding:10px 0; position:relative;
+  transition:color var(--transicion), text-shadow var(--transicion);
 }
 .nav a::after{
   content:""; position:absolute; left:0; right:0; bottom:2px; height:1px;
-  background:linear-gradient(90deg, var(--oro), var(--oro-claro));
-  transform:scaleX(0); transform-origin:right;
-  transition:transform 420ms var(--ease);
+  background:linear-gradient(90deg, transparent, var(--oro-claro), transparent);
+  transform:scaleX(0);
+  transition:transform 480ms var(--ease);
 }
-.nav a:hover, .nav a[aria-current="page"]{ color:var(--oro-luz); }
-.nav a:hover::after, .nav a[aria-current="page"]::after{ transform:scaleX(1); transform-origin:left; }
+.nav a:hover, .nav a[aria-current="page"]{
+  color:var(--oro-luz); text-shadow:0 0 18px rgba(232,199,118,.45);
+}
+.nav a:hover::after, .nav a[aria-current="page"]::after{ transform:scaleX(1); }
+/* rombo sobre la sección activa */
+.nav a[aria-current="page"]::before{
+  content:""; position:absolute; left:50%; top:-1px;
+  width:4px; height:4px; margin-left:-2px;
+  background:var(--oro-claro); transform:rotate(45deg);
+  box-shadow:0 0 10px rgba(232,199,118,.8);
+}
 
-.acciones{ display:flex; align-items:center; gap:4px; flex-shrink:0; }
+.acciones{
+  display:flex; align-items:center; gap:6px; flex-shrink:0;
+  padding-left:22px; position:relative;
+}
+.acciones::before{
+  content:""; position:absolute; left:0; top:50%; transform:translateY(-50%);
+  width:1px; height:26px;
+  background:linear-gradient(180deg, transparent, var(--borde-2), transparent);
+}
 .icono-btn{
   width:42px; height:42px; display:grid; place-items:center;
   border-radius:50%; color:var(--texto-2); position:relative;
-  transition:color var(--transicion), background var(--transicion);
+  border:1px solid transparent;
+  transition:color var(--transicion), background var(--transicion),
+             border-color var(--transicion), box-shadow var(--transicion);
 }
-.icono-btn:hover{ color:var(--oro-claro); background:rgba(201,162,39,.08); }
+.icono-btn:hover{
+  color:var(--oro-luz);
+  background:rgba(201,162,39,.10);
+  border-color:rgba(201,162,39,.42);
+  box-shadow:0 0 22px -6px rgba(201,162,39,.6);
+}
 .icono-btn svg{ width:19px; height:19px; }
 
 .globo{
@@ -850,29 +912,101 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
 /* =========================================================
    PIE
    ========================================================= */
-.pie{ background:var(--carbon); border-top:1px solid var(--borde); padding-block:74px 32px; }
-.pie__rejilla{ display:grid; grid-template-columns:1.6fr 1fr 1fr 1.3fr; gap:clamp(30px,4vw,54px); }
+.pie{
+  position:relative; overflow:hidden;
+  padding-block:clamp(76px,10vw,116px) 34px;
+  background:
+    radial-gradient(70% 130% at 14% 0%, rgba(201,162,39,.10), transparent 58%),
+    radial-gradient(52% 110% at 88% 12%, rgba(232,199,118,.06), transparent 62%),
+    linear-gradient(180deg, #0D0C0E 0%, var(--carbon) 42%, #070709 100%);
+  isolation:isolate;
+}
+
+/* filo dorado superior, hermano del que remata el encabezado */
+.pie::before{
+  content:""; position:absolute; left:0; right:0; top:0; height:1px;
+  background:linear-gradient(90deg,
+    transparent, rgba(201,162,39,.42) 18%, rgba(232,199,118,.75) 50%,
+    rgba(201,162,39,.42) 82%, transparent);
+}
+
+/* marca de agua: el nombre en gran tamaño, solo contorno */
+.pie::after{
+  content:"ALONDRA";
+  position:absolute; z-index:-1;
+  left:50%; bottom:-.34em; transform:translateX(-50%);
+  font-family:var(--serif); font-size:clamp(6.4rem,18vw,17rem);
+  line-height:.8; letter-spacing:.03em; white-space:nowrap;
+  color:transparent; -webkit-text-stroke:1px rgba(232,199,118,.055);
+  pointer-events:none; user-select:none;
+}
+
+.pie__rejilla{
+  position:relative; z-index:1;
+  display:grid; grid-template-columns:1.7fr 1fr 1fr 1.35fr;
+  gap:clamp(32px,4.5vw,60px);
+}
+
 .pie h3{
-  font-family:var(--sans); font-size:10px; letter-spacing:.26em;
-  text-transform:uppercase; color:var(--oro); margin-bottom:22px; font-weight:400;
+  font-family:var(--sans); font-size:9.5px; letter-spacing:.3em;
+  text-transform:uppercase; color:var(--oro); font-weight:400;
+  margin-bottom:24px; padding-bottom:12px; position:relative;
 }
-.pie p{ font-size:13.5px; color:var(--texto-3); margin:0 0 14px; line-height:1.75; }
-.pie ul{ list-style:none; padding:0; margin:0; display:grid; gap:12px; }
-.pie a{ font-size:13.5px; color:var(--texto-2); transition:color var(--transicion); }
-.pie a:hover{ color:var(--oro-claro); }
-.pie__marca img{ height:56px; width:auto; margin-bottom:20px; }
-.redes{ display:flex; gap:10px; margin-top:20px; }
+.pie h3::after{
+  content:""; position:absolute; left:0; bottom:0; width:26px; height:1px;
+  background:linear-gradient(90deg, var(--oro-claro), transparent);
+}
+
+.pie p{ font-size:13.5px; color:var(--texto-3); margin:0 0 14px; line-height:1.8; }
+.pie ul{ list-style:none; padding:0; margin:0; display:grid; gap:13px; }
+
+/* los enlaces asoman una flecha y se desplazan al pasar el cursor */
+.pie ul a{
+  display:inline-flex; align-items:center; gap:0;
+  font-size:13.5px; color:var(--texto-2);
+  transition:color var(--transicion), gap var(--transicion), transform var(--transicion);
+}
+.pie ul a::before{
+  content:"→"; width:0; opacity:0; color:var(--oro);
+  transition:width var(--transicion), opacity var(--transicion);
+}
+.pie ul a:hover{ color:var(--oro-luz); gap:9px; }
+.pie ul a:hover::before{ width:1em; opacity:1; }
+
+.pie__marca img{
+  height:148px; width:auto; margin-bottom:24px;
+  filter:drop-shadow(0 8px 30px rgba(201,162,39,.24));
+}
+.pie__marca p{ max-width:34ch; }
+
+.redes{ display:flex; gap:11px; margin-top:24px; }
 .redes a{
-  width:40px; height:40px; border:1px solid var(--borde); border-radius:50%;
-  display:grid; place-items:center; color:var(--texto-2);
-  transition:all var(--transicion);
+  width:42px; height:42px; border:1px solid var(--borde); border-radius:50%;
+  display:grid; place-items:center; color:var(--texto-2); position:relative;
+  transition:color var(--transicion), border-color var(--transicion),
+             background var(--transicion), box-shadow var(--transicion), transform var(--transicion);
 }
-.redes a:hover{ border-color:var(--oro); color:var(--oro-claro); background:rgba(201,162,39,.08); }
+.redes a:hover{
+  color:var(--oro-luz); border-color:rgba(201,162,39,.6);
+  background:rgba(201,162,39,.10);
+  box-shadow:0 0 26px -6px rgba(201,162,39,.7);
+  transform:translateY(-3px);
+}
 .redes svg{ width:17px; height:17px; }
 .pie__base{
-  margin-top:56px; padding-top:26px; border-top:1px solid var(--borde);
-  display:flex; justify-content:space-between; gap:16px; flex-wrap:wrap;
-  font-size:11.5px; color:var(--texto-3); letter-spacing:.06em;
+  position:relative; z-index:1;
+  margin-top:clamp(52px,7vw,78px); padding-top:28px;
+  border-top:1px solid rgba(201,162,39,.16);
+  display:flex; justify-content:space-between; align-items:center;
+  gap:16px; flex-wrap:wrap;
+  font-size:11px; color:#8B8279; letter-spacing:.1em;
+}
+/* rombo dorado que separa la línea inferior */
+.pie__base::before{
+  content:""; position:absolute; left:50%; top:-4px;
+  width:7px; height:7px; margin-left:-3.5px;
+  background:var(--carbon); border:1px solid rgba(201,162,39,.5);
+  transform:rotate(45deg);
 }
 
 /* ---------- WhatsApp flotante ---------- */
@@ -942,7 +1076,9 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   .menu-btn{ display:grid; }
   .encabezado__fila{ gap:10px; }
   .marca{ margin-inline:auto 0; }
-  .marca img{ height:38px; }
+  .marca__texto{ height:32px; }
+  .acciones{ padding-left:0; }
+  .acciones::before{ display:none; }
   .nav.desplegado{
     display:flex; position:absolute; top:var(--barra); left:0; right:0;
     flex-direction:column; gap:0; background:var(--carbon);
@@ -958,8 +1094,11 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   .producto__pie{ flex-direction:column; align-items:stretch; gap:10px; }
   .btn-agregar{ text-align:center; }
   .categorias{ grid-template-columns:repeat(auto-fill,minmax(150px,1fr)); gap:12px; }
-  .pie__rejilla{ grid-template-columns:1fr; gap:36px; }
-  .pie__base{ flex-direction:column; gap:8px; }
+  .pie__rejilla{ grid-template-columns:1fr; gap:40px; }
+  .pie__marca img{ height:120px; }
+  .pie::after{ bottom:-.22em; }
+  .pie__base{ flex-direction:column; align-items:flex-start; gap:10px; text-align:left; }
+  .pie__base::before{ display:none; }
   .resultado-cuenta{ order:3; width:100%; }
   .portada__datos{ gap:24px; }
   .letterbox{ height:20px; }
@@ -1712,7 +1851,7 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   content-visibility:auto;
   contain-intrinsic-size:auto 900px;
 }
-.pie{ content-visibility:auto; contain-intrinsic-size:auto 520px; }
+.pie{ content-visibility:auto; contain-intrinsic-size:auto 640px; }
 
 /* el grano es una capa fija con mezcla: avisamos al compositor */
 .grano{ will-change:transform; }
