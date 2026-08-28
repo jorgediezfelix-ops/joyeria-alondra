@@ -21,7 +21,10 @@ const CONFIG = {
 
 - **WhatsApp**: `52` + LADA + número, todo junto. Ej.: `5215512345678`.
   Mientras diga `520000000000`, los botones de pedido no llegan a ningún lado.
-- **Instagram**: el sitio arma solo el enlace y la etiqueta `@usuario`.
+- **Instagram**: está **vacío a propósito**. Mientras lo esté, el sitio oculta
+  solos todos los iconos y enlaces de Instagram, para no dejar botones muertos.
+  En cuanto pongas el usuario real, reaparecen en el encabezado, el pie y la
+  sección de galería.
 - El aviso de *envío gratis desde $1,500* aparece en el encabezado de ambas páginas
   (`index.html` y `catalogo.html`); si cambias `envioGratisDesde`, ajusta también ese texto.
 
