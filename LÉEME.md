@@ -1,4 +1,4 @@
-# Joyería Valenne — sitio web
+# Joyería Alondra — sitio web
 
 Tienda estática (HTML + CSS + JavaScript, sin dependencias ni compilación) con las
 **311 piezas** del catálogo `CAT0826.pdf`.
@@ -12,8 +12,8 @@ Todo está en **`assets/js/tienda.js`**, primeras líneas:
 ```js
 const CONFIG = {
   whatsapp: '520000000000',            // ← número real, formato internacional sin "+"
-  usuarioInstagram: 'joyeria_valenne', // ← usuario real, sin la arroba
-  correo: 'hola@joyeriavalenne.com',   // ← correo real
+  usuarioInstagram: 'joyeria_alondra', // ← usuario real, sin la arroba
+  correo: 'hola@joyeriaalondra.com',   // ← correo real
   moneda: 'MXN',
   envioGratisDesde: 1500,
 };
@@ -127,7 +127,7 @@ buscador que ignora acentos y también encuentra por SKU, y cuatro ordenamientos
 Los enlaces aceptan parámetros: `catalogo.html?categoria=Anillos`,
 `catalogo.html?material=Acero+inoxidable`, `catalogo.html?q=trebol`.
 
-**Carrito** — se guarda en `localStorage` (clave `valenne-carrito`), así que sobrevive
+**Carrito** — se guarda en `localStorage` (clave `alondra-carrito`), así que sobrevive
 al cerrar la pestaña. El botón "Enviar pedido" arma un mensaje de WhatsApp con las
 piezas, cantidades, SKU y total. No hay pasarela de pago: el pedido se cierra por chat.
 
@@ -176,12 +176,12 @@ La indexación completa suele tardar de días a algunas semanas.
 
 ### ⚠️ El dominio actual no ayuda
 
-El sitio se sirve desde `kinvitalgroup.com/joyeria-valenne/` porque tu cuenta
+El sitio se sirve desde `kinvitalgroup.com/joyeria-alondra/` porque tu cuenta
 de GitHub ya tenía ese dominio configurado. Para posicionar en Google es una
 desventaja real: el dominio no tiene nada que ver con joyería y la autoridad
 que gane el sitio se reparte con el otro negocio.
 
-Con un dominio propio (`joyeriavalenne.com`) el sitio arrancaría mucho mejor.
+Con un dominio propio (`joyeriaalondra.com`) el sitio arrancaría mucho mejor.
 Al cambiarlo hay que actualizar `BASE` en `herramientas/generar-seo.py`,
 volver a generar, y corregir las canónicas de `index.html` y `catalogo.html`.
 

@@ -1,5 +1,5 @@
 /* =========================================================
-   Joyería Valenne — hoja de estilos · edición cinematográfica
+   Joyería Alondra — hoja de estilos · edición cinematográfica
    ========================================================= */
 
 :root{
@@ -267,7 +267,15 @@ h1,h2,h3,h4{
   letter-spacing:-.015em;
   margin-bottom:26px;
 }
-.portada h1 .reng{ display:block; overflow:hidden; }
+.portada h1 .reng{
+  display:block;
+  /* overflow:hidden es lo que oculta el renglón antes de que suba.
+     El relleno inferior evita que recorte las colas de p, g y j;
+     el margen negativo lo compensa para no separar los renglones. */
+  overflow:hidden;
+  padding-bottom:.24em;
+  margin-bottom:-.24em;
+}
 .portada h1 .reng > span{
   display:block;
   transform:translateY(105%);
@@ -1066,20 +1074,20 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
 
 .portada h1{
   font-size:clamp(4.15rem,7.4vw,7.85rem);
-  line-height:.77;
-  letter-spacing:-.05em;
+  line-height:.88;
+  letter-spacing:-.045em;
   margin:0 0 38px;
   text-wrap:balance;
 }
 
 .portada h1 .reng:nth-child(2){
   margin-left:clamp(12px,3vw,58px);
-  padding:0 0 .17em .02em;
+  padding-left:.02em;
 }
 
 .portada h1 em{
   font-weight:300;
-  padding-right:.06em;
+  padding-right:.1em;
   background:linear-gradient(105deg,#866315 3%,#ddb94e 32%,#fff1b6 49%,#c79220 69%,#7a5811 100%);
   background-size:240% 100%;
   -webkit-background-clip:text;
@@ -1400,7 +1408,7 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   .portada__rejilla{ display:flex; flex-direction:column; padding-top:82px; padding-bottom:74px; }
   .escenario{ order:0; min-height:350px; height:42svh; margin-top:12px; }
   .portada__texto{ order:-1; }
-  .portada h1{ font-size:clamp(3.45rem,15vw,5.6rem); line-height:.8; margin-bottom:30px; }
+  .portada h1{ font-size:clamp(3.2rem,13.5vw,5.6rem); line-height:.9; margin-bottom:30px; }
   .portada h1 .reng:nth-child(2){ margin-left:0; }
   .portada__parrafo{ font-size:.92rem; }
   .portada__botones{ margin-bottom:34px; }
@@ -1543,6 +1551,7 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
 .instagram__foto{
   position:relative;
   display:block;
+  margin:0;
   min-width:0;
   overflow:hidden;
   background:#171518;
@@ -1561,7 +1570,8 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   transition:background var(--transicion);
 }
 .instagram__foto::after{
-  content:"↗";
+  content:"";
+  display:none;
   position:absolute;
   z-index:4;
   top:18px;
@@ -1594,7 +1604,7 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   transform:scale(1.055);
   filter:saturate(1.05) contrast(1.03);
 }
-.instagram__foto > span{
+.instagram__foto > figcaption{
   position:absolute;
   z-index:3;
   left:24px;
@@ -1610,7 +1620,7 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   font-style:italic;
   text-shadow:0 2px 16px rgba(0,0,0,.7);
 }
-.instagram__foto > span b{
+.instagram__foto > figcaption b{
   font-family:var(--sans);
   font-size:8px;
   font-style:normal;
@@ -1678,7 +1688,7 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   .instagram__foto--tobillera{ grid-column:1/-1; }
   .instagram__foto--retrato{ aspect-ratio:4/4.8; }
   .instagram__foto--tobillera{ aspect-ratio:16/9; }
-  .instagram__foto > span{ left:14px; right:14px; bottom:14px; font-size:1.1rem; }
+  .instagram__foto > figcaption{ left:14px; right:14px; bottom:14px; font-size:1.1rem; }
   .instagram__foto::after{ opacity:1; transform:none; width:34px; height:34px; top:12px; right:12px; }
 }
 

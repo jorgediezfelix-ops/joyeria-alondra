@@ -4,4 +4,4 @@ Allow: /
 # Recursos que no aportan a la búsqueda
 Disallow: /herramientas/
 
-Sitemap: https://kinvitalgroup.com/joyeria-valenne/sitemap.xml
+Sitemap: https://kinvitalgroup.com/joyeria-alondra/sitemap.xml

@@ -1,5 +1,5 @@
 /* =========================================================
-   Joyería Valenne — lógica de la tienda
+   Joyería Alondra — lógica de la tienda
    ---------------------------------------------------------
    CONFIGURACIÓN: cambia estos datos por los reales.
    ========================================================= */
@@ -8,9 +8,10 @@ const CONFIG = {
   // Número de WhatsApp en formato internacional, sin "+", espacios ni guiones.
   // Ejemplo para México: 52 + LADA + número  →  "5215512345678"
   whatsapp: '520000000000',
-  // Usuario de Instagram, sin la arroba.
-  usuarioInstagram: 'moriah_joyeria',
-  correo: 'hola@joyeriavalenne.com',
+  // Usuario de Instagram, sin la arroba. Vacío = se ocultan todos los
+  // enlaces e iconos de Instagram del sitio.
+  usuarioInstagram: '',
+  correo: 'hola@joyeriaalondra.com',
   moneda: 'MXN',
   envioGratisDesde: 1500,
 };
@@ -60,7 +61,7 @@ const ICONO = {
    CARRITO
    ========================================================= */
 const Carrito = {
-  clave: 'valenne-carrito',
+  clave: 'alondra-carrito',
   articulos: [],
 
   cargar() {
@@ -176,7 +177,7 @@ const Carrito = {
       `• ${a.nombre} (${a.sku}) — ${a.cantidad} pza${a.cantidad > 1 ? 's' : ''} — ${formateaPrecio(a.precio * a.cantidad)}`
     );
     return [
-      '¡Hola Valenne! Me interesa este pedido:', '',
+      '¡Hola Alondra! Me interesa este pedido:', '',
       ...lineas, '',
       `Total: ${formateaPrecio(this.total)}`, '',
       '¿Me confirman disponibilidad y forma de envío?',
@@ -226,9 +227,9 @@ const Cine = {
     if (!c) return;
 
     let yaVista = false;
-    try { yaVista = sessionStorage.getItem('valenne-intro') === '1'; } catch {}
+    try { yaVista = sessionStorage.getItem('alondra-intro') === '1'; } catch {}
     if (menosMovimiento || yaVista) { c.remove(); return; }
-    try { sessionStorage.setItem('valenne-intro', '1'); } catch {}
+    try { sessionStorage.setItem('alondra-intro', '1'); } catch {}
 
     const cerrar = () => {
       c.classList.add('se-va');
@@ -384,7 +385,7 @@ function abreDetalle(p) {
         <a class="btn btn--linea btn--bloque" href="${ruta('producto/' + p.slug + '.html')}">Ver ficha completa</a>
         <a class="btn btn--wa btn--bloque" target="_blank" rel="noopener"
            href="https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(
-             `¡Hola Valenne! Me interesa "${p.nombre}" (${p.sku}) — ${formateaPrecio(p.precio)}. ¿Está disponible?`)}">
+             `¡Hola Alondra! Me interesa "${p.nombre}" (${p.sku}) — ${formateaPrecio(p.precio)}. ¿Está disponible?`)}">
           ${ICONO.wa} Preguntar por WhatsApp
         </a>
       </div>
@@ -408,10 +409,16 @@ document.addEventListener('DOMContentLoaded', async () => {
 
   /* ---------- enlaces de WhatsApp e Instagram ---------- */
   $$('[data-wa]').forEach(a => {
-    const texto = a.dataset.wa || '¡Hola Valenne! Me gustaría más información sobre sus joyas.';
+    const texto = a.dataset.wa || '¡Hola Alondra! Me gustaría más información sobre sus joyas.';
     a.href = `https://wa.me/${CONFIG.whatsapp}?text=${encodeURIComponent(texto)}`;
   });
   $$('[data-ig]').forEach(a => {
+    if (!CONFIG.usuarioInstagram) {
+      // Sin cuenta configurada: quitamos el enlace (y su viñeta, si va en lista)
+      // para no dejar iconos que no llevan a ningún lado.
+      (a.closest('li') || a).remove();
+      return;
+    }
     a.href = CONFIG.instagram;
     if (!a.textContent.trim() && !a.querySelector('svg')) a.textContent = `@${CONFIG.usuarioInstagram}`;
   });
