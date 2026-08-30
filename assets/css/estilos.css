@@ -1834,6 +1834,8 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
 .instagram__foto--corazones{ grid-column:9/13; grid-row:4/7; }
 .instagram__foto--tobillera{ grid-column:1/13; grid-row:7/10; }
 .instagram__foto--tobillera img{ object-position:center 48%; }
+/* la celda es mucho más alta que la foto: se encuadra el perfil y el arete */
+.instagram__foto--retrato img{ object-position:15% center; }
 
 .instagram__pie{
   display:flex;

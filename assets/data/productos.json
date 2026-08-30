@@ -1005,11 +1005,13 @@
   },
   {
     "sku": "GS037751",
-    "nombre": "Anillo Reloj",
+    "nombre": "Anillo Reloj Estilo Rolex",
     "slug": "anillo-reloj-gs037751",
     "precio": 220,
     "categoria": "Anillos",
     "material": "Chapa de oro",
+    "gancho": "Un diseño de reloj icónico convertido en una joya para la mano.",
+    "descripcion": "Anillo reloj estilo Rolex en chapa de oro, con carátula circular, corona en relieve y marco de destellos. Un diseño llamativo inspirado en la estética clásica de la relojería de lujo. $220 MXN, código GS037751. Envíos a toda la República.",
     "medidas": [],
     "img": "assets/img/productos/GS037751.webp",
     "thumb": "assets/img/productos/thumb/GS037751.webp"
