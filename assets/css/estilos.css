@@ -1259,7 +1259,10 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
 }
 
 .portada h1 em{
-  font-weight:300;
+  /* la cursiva de Cormorant afina la cola de la p hasta un pelo que se
+     pierde sobre negro: el peso 400 y un halo de un pixel la sostienen */
+  font-weight:400;
+  text-shadow:0 0 1.1px rgba(232,199,118,.8);
   padding-right:.1em;
   /* el suelo del degradado no baja de un oro legible: la p, que cae en el
      extremo oscuro, se perdia contra el fondo negro */
