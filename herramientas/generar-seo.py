@@ -54,6 +54,12 @@ CUIDADO = {
                          "de las piezas clásicas"),
 }
 
+ESTILO_DESCRIPCION = {
+    "Aretes":       "Su silueta de trébol aporta un acento elegante y luminoso para llevar a diario.",
+    "Gargantillas": "Sus motivos de trébol crean un detalle delicado y sofisticado sobre el escote.",
+    "Pulseras":     "Sus motivos de trébol aportan un detalle elegante y fácil de combinar en la muñeca.",
+}
+
 
 def esc(t):
     return html.escape(str(t), quote=True)
@@ -80,6 +86,11 @@ def descripcion(p):
     """Descripción única por pieza, para el meta description y el JSON-LD."""
     if p.get("descripcion"):
         return p["descripcion"]
+    if p.get("estilo") == "Van Cleef":
+        nombre = p["nombre"].removesuffix(" Estilo Van Cleef")
+        detalle = ESTILO_DESCRIPCION.get(p["categoria"], "Un diseño elegante y fácil de combinar.")
+        return (f"{nombre} estilo Van Cleef en {p['material'].lower()}. {detalle} "
+                f"${p['precio']:,} MXN, código {p['sku']}. Envíos a toda la República.")
     med = f" {' · '.join(p['medidas'])}." if p["medidas"] else ""
     return (f"{p['nombre']} en {CUIDADO[p['material']]}.{med} "
             f"${p['precio']:,} MXN, código {p['sku']}. Envíos a toda la República.")
