@@ -60,14 +60,18 @@ Joyeria/
     ├── js/tienda.js        Catálogo, carrito, animaciones · CONFIG arriba
     ├── data/productos.json Los 311 productos — la única fuente de datos
     └── img/
-        ├── logo.svg
+        ├── logo.webp           Logotipo completo (emblema + texto)
+        ├── logo-emblema.webp    Solo el ave y el diamante
+        ├── logo-texto.webp      Solo la palabra ALONDRA
+        ├── og-alondra.jpg       Imagen de vista previa al compartir el enlace (1200×630)
+        ├── favicon.png · favicon-32.png
         ├── instagram-pulseras.webp
         ├── instagram/      6 fotos de campaña
         ├── cine/           Piezas recortadas sin fondo (3 en uso + 3 de repuesto)
         └── productos/      311 fotos (800 px) + thumb/ (420 px), todas WebP
 ```
 
-Todas las imágenes son **WebP**. Los assets pesan 7.8 MB (antes 19 MB en JPEG/PNG).
+Todas las imágenes del sitio son **WebP** (la de vista previa al compartir es JPEG, por compatibilidad con WhatsApp y Facebook). Los assets pesan 7.8 MB (antes 19 MB en JPEG/PNG).
 
 ---
 
