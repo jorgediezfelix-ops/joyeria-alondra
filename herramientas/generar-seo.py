@@ -137,7 +137,7 @@ CABEZA = """<!DOCTYPE html>
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap">
 <link rel="stylesheet" media="print" onload="this.media='all'" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@200;300;400;500&display=swap"></noscript>
-<link rel="stylesheet" href="../assets/css/estilos.css?v=20260830-fotos">
+<link rel="stylesheet" href="../assets/css/estilos.css?v=20260830-titular">
 <link rel="preload" as="image" href="../{img}" fetchpriority="high">
 
 <script type="application/ld+json">
@@ -255,7 +255,7 @@ PIE = """
 </a>
 
 <script>document.getElementById('anio').textContent = new Date().getFullYear();</script>
-<script src="../assets/js/tienda.js?v=20260830-fotos" defer></script>
+<script src="../assets/js/tienda.js?v=20260830-titular" defer></script>
 </body>
 </html>
 """

@@ -332,15 +332,17 @@ h1,h2,h3,h4{
 .portada h1 .reng{
   display:block;
   /* overflow:hidden es lo que oculta el renglón antes de que suba.
-     El relleno inferior evita que recorte las colas de p, g y j;
-     el margen negativo lo compensa para no separar los renglones. */
+     El relleno inferior evita que recorte las colas de p, g y j —la p
+     cursiva de «permiso» baja .28em y la interlínea de .88 no deja hueco—
+     y el margen negativo lo compensa para no separar los renglones. */
   overflow:hidden;
-  padding-bottom:.24em;
-  margin-bottom:-.24em;
+  padding-bottom:.34em;
+  margin-bottom:-.34em;
 }
 .portada h1 .reng > span{
   display:block;
-  transform:translateY(105%);
+  /* baja lo suficiente para quedar fuera del recorte, relleno incluido */
+  transform:translateY(145%);
   animation:subeLinea 1150ms var(--ease) forwards;
 }
 .portada h1 .reng:nth-child(1) > span{ animation-delay:.45s; }
