@@ -387,14 +387,25 @@ h1,h2,h3,h4{
 /* --- escenario de piezas flotantes --- */
 .escenario{ position:relative; height:min(78svh, 640px); }
 .pieza{
-  position:absolute; filter:drop-shadow(0 30px 50px rgba(0,0,0,.85));
+  position:absolute;
+  filter:drop-shadow(0 30px 50px rgba(0,0,0,.85)) drop-shadow(0 0 30px rgba(232,199,118,.26));
   opacity:0; animation:entraPieza 1500ms var(--ease) forwards;
   will-change:transform;
 }
-.pieza img{ width:100%; height:auto; }
+.pieza img{
+  width:100%; height:auto;
+  filter:contrast(1.07) saturate(1.14) brightness(1.05);
+  animation:flotaPieza 6s ease-in-out infinite alternate;
+}
+.pieza--cruz img { animation-duration:7.6s; animation-delay:-2.4s; }
+.pieza--arete img{ animation-duration:8.6s; animation-delay:-4.1s; }
+@keyframes flotaPieza{
+  from{ transform:translateY(-6px) }
+  to  { transform:translateY(8px)  }
+}
 .pieza::after{
   content:""; position:absolute; inset:-18%; z-index:-1; border-radius:50%;
-  background:radial-gradient(circle, rgba(232,199,118,.22), transparent 68%);
+  background:radial-gradient(circle, rgba(232,199,118,.30), transparent 68%);
 }
 .pieza--cadena{ width:64%; top:4%;   right:-2%; animation-delay:.70s; }
 .pieza--cruz  { width:33%; bottom:6%; left:-1%; animation-delay:.95s; }
@@ -1145,6 +1156,7 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   .portada h1 .reng > span{ transform:none; }
   .portada__entrada{ opacity:1; }
   .pieza{ opacity:1; }
+  .pieza img{ animation:none; }
   .historia__img img{ transform:none; }
 }
 
@@ -1161,13 +1173,21 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
 /* La portada se siente como una tapa editorial, no como un banner. */
 .portada{
   min-height:max(760px, calc(100svh - var(--barra)));
+  /* el velo abre paso al texto en la izquierda y deja ver la foto a la derecha */
   background:
-    linear-gradient(115deg, rgba(6,6,7,.98) 0%, rgba(9,8,8,.96) 43%, rgba(25,20,11,.86) 100%);
+    linear-gradient(96deg,
+      rgba(6,6,7,.96) 0%,
+      rgba(7,7,8,.88) 30%,
+      rgba(8,8,10,.4)  54%,
+      rgba(8,8,10,.06) 76%,
+      rgba(8,8,10,.24) 100%),
+    url("../img/hero-cruz.webp") right center / cover no-repeat,
+    var(--noche);
 }
 
 .portada::before{
   background:
-    radial-gradient(ellipse 42% 60% at 79% 48%, rgba(240,205,119,.22), transparent 67%),
+    radial-gradient(ellipse 45% 63% at 79% 48%, rgba(240,205,119,.3), transparent 69%),
     radial-gradient(ellipse 42% 34% at 61% 3%, rgba(163,111,33,.16), transparent 72%),
     linear-gradient(115deg, transparent 42%, rgba(197,148,53,.055) 43%, transparent 44%);
 }
@@ -1275,7 +1295,7 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   position:absolute;
   z-index:-1;
   border-radius:50%;
-  border:1px solid rgba(232,199,118,.13);
+  border:1px solid rgba(232,199,118,.2);
   pointer-events:none;
 }
 .escenario::before{ width:70%; aspect-ratio:1; right:3%; top:8%; }
@@ -1289,7 +1309,7 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   right:1%;
   top:5%;
   border-radius:50%;
-  background:radial-gradient(circle, rgba(230,183,77,.22) 0%, rgba(124,78,15,.08) 43%, transparent 70%);
+  background:radial-gradient(circle, rgba(238,193,88,.34) 0%, rgba(150,96,20,.14) 45%, transparent 72%);
   filter:blur(8px);
   animation:haloEditorial 7s ease-in-out infinite alternate;
 }
@@ -1336,6 +1356,11 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   filter:drop-shadow(0 38px 54px rgba(0,0,0,.9)) drop-shadow(0 0 26px rgba(225,183,87,.16));
 }
 .pieza::after{ opacity:.8; }
+
+/* Con la fotografía de fondo, los aros y el monograma ensucian la imagen. */
+.escenario::before,
+.escenario::after,
+.portada__monograma{ display:none; }
 .pieza--cadena{ width:75%; top:1%; right:-4%; transform:rotate(-5deg); }
 .pieza--cruz{ width:29%; bottom:2%; left:8%; z-index:3; }
 .pieza--arete{ width:18%; top:38%; right:30%; z-index:5; }
@@ -1580,7 +1605,6 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   .editorial__foto--dos{ width:51%; height:51%; }
   .editorial__foto--tres{ width:42%; height:37%; right:2%; }
   .editorial__firma{ display:none; }
-  .editorial__firma{ top:0; }
 
   .categorias{ grid-template-columns:repeat(2,minmax(0,1fr)); gap:12px; }
   .categoria,
@@ -1610,6 +1634,26 @@ dialog.ventana::backdrop{ background:rgba(4,4,6,.86); backdrop-filter:blur(6px);
   .editorial__composicion{ min-height:470px; }
   .editorial__foto span{ display:none; }
   .editorial__firma{ font-size:2.5rem; }
+}
+
+/* En vertical la fotografía no cabe junto al texto: en vez de estirarla
+   detrás de todo, ocupa su propio recuadro dentro de la portada. */
+@media (max-width:1100px){
+  .portada{
+    background:
+      linear-gradient(160deg, rgba(6,6,7,.97) 0%, rgba(12,10,9,.93) 58%, rgba(25,20,11,.88) 100%),
+      var(--noche);
+  }
+  .escenario{
+    min-height:0;
+    height:auto;
+    aspect-ratio:5/4;
+    width:min(700px,100%);
+    margin-inline:auto;
+    border-radius:16px;
+    overflow:hidden;
+    background:url("../img/hero-cruz.webp") 72% center / cover no-repeat;
+  }
 }
 
 @media (prefers-reduced-motion:reduce){
