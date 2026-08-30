@@ -538,25 +538,30 @@ document.addEventListener('DOMContentLoaded', async () => {
   /* categorías con imagen representativa */
   const cajaCategorias = $('#categorias');
   if (cajaCategorias) {
+    /* Cada categoría tiene su fotografía sobre fondo oscuro. Las fichas 1, 6, 7
+       y 8 se muestran anchas (8:5) y las demás verticales (4:5). */
     const portadas = {
-      Anillos:'GS03834', Aretes:'GS110296', Gargantillas:'GS03112', Pulseras:'GS1406899',
-      Cadenas:'GAJ15750', Dijes:'G79043', Rosarios:'GAJ9RS28', Juegos:'GS03005',
+      Anillos:      ['anillos',      1100, 688],
+      Aretes:       ['aretes',        680, 850],
+      Gargantillas: ['gargantillas',  680, 850],
+      Pulseras:     ['pulseras',      680, 850],
+      Cadenas:      ['cadenas',       680, 850],
+      Dijes:        ['dijes',        1100, 688],
+      Rosarios:     ['rosarios',     1100, 688],
+      Juegos:       ['juegos',       1100, 688],
     };
     const cuentas = PRODUCTOS.reduce((a, p) => (a[p.categoria] = (a[p.categoria] || 0) + 1, a), {});
-    cajaCategorias.innerHTML = Object.entries(portadas).map(([cat, sku]) => {
-      const p = porSku[sku] || PRODUCTOS.find(x => x.categoria === cat);
-      if (!p) return '';
-      return `
+    cajaCategorias.innerHTML = Object.entries(portadas).map(([cat, [archivo, ancho, alto]]) => `
         <a class="categoria" href="${ruta('catalogo.html')}?categoria=${encodeURIComponent(cat)}">
           <div class="categoria__img">
-            <img src="${escapaHTML(ruta(p.thumb))}" alt="${escapaHTML(cat)}" loading="lazy" width="420" height="420">
+            <img src="${ruta('assets/img/categorias/' + archivo + '.webp')}" alt="${escapaHTML(cat)}"
+                 loading="lazy" width="${ancho}" height="${alto}">
           </div>
           <div class="categoria__pie">
             <h3>${escapaHTML(cat)}</h3>
             <span>${cuentas[cat] || 0} piezas</span>
           </div>
-        </a>`;
-    }).join('');
+        </a>`).join('');
     Cine.observa(cajaCategorias);
   }
 
