@@ -78,6 +78,8 @@ def distintivo(p):
 
 def descripcion(p):
     """Descripción única por pieza, para el meta description y el JSON-LD."""
+    if p.get("descripcion"):
+        return p["descripcion"]
     med = f" {' · '.join(p['medidas'])}." if p["medidas"] else ""
     return (f"{p['nombre']} en {CUIDADO[p['material']]}.{med} "
             f"${p['precio']:,} MXN, código {p['sku']}. Envíos a toda la República.")
@@ -340,7 +342,7 @@ def ficha(p, relacionados):
       <div class="ficha-producto__datos">
         <p class="eyebrow">{esc(p['categoria'])}</p>
         <h1>{esc(p['nombre'])}</h1>
-        <p class="ficha-producto__gancho">{esc(GANCHO.get(p['categoria'], ''))}</p>
+        <p class="ficha-producto__gancho">{esc(p.get('gancho', GANCHO.get(p['categoria'], '')))}</p>
         <div class="ficha-producto__precio">${p['precio']:,}<span> MXN</span></div>
 
         <dl style="margin:0">
